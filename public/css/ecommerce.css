@@ -544,7 +544,7 @@
 
 .orbit-slide {
     text-align: center;
-    background: gray none repeat scroll 0% 0%;
+    background: #ffffff none repeat scroll 0% 0%;
 }
 
 .banner-img {
@@ -557,4 +557,8 @@
 
 .special-weeks {
     text-align: center;
+}
+
+.button-grey {
+    background-color: #eee;
 }
