@@ -11,10 +11,6 @@
 |
 */
 
-use \Laravel\Lumen\Routing\Router;
-
-
-/** @var $router \Laravel\Lumen\Routing\Router */
 
 Route::get('/', function () {
     return view('ecommerce');
@@ -29,3 +25,7 @@ Route::get('/holst', function () {
 });
 
 Route::get('/order', 'Order@orderAction');
+Route::post('/order', 'Order@orderAction');
+
+Route::get('/submit', 'Order@orderSubmitAction');
+Route::post('/submit', 'Order@orderSubmitAction');

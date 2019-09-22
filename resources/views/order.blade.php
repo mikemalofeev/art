@@ -14,7 +14,7 @@
     <div class="row">
         <div class="top-bar-left">
             <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">ПОЛИГРАФ</li>
+                <li class="menu-text"><a href="/">ПОЛИГРАФ</a></li>
                 <!--<li class="has-submenu">-->
                     <!--<a href="#">One</a>-->
                     <!--<ul class="submenu menu vertical" data-submenu>-->
@@ -23,7 +23,7 @@
                         <!--<li><a href="#">Three</a></li>-->
                     <!--</ul>-->
                 <!--</li>-->
-                <li><a href="#">Фотохолсты</a></li>
+                <li><a href="/holst">Фотохолсты</a></li>
                 <li><a href="#">Полиграфия</a></li>
                 <li><a href="#">Фотосувениры</a></li>
             </ul>
@@ -42,8 +42,17 @@
 <br>
 
 <div class="column row">
-    <form class="callout text-center" action="/place-order">
-        <h2>Заполните форму и загрузите файлы</h2>
+    <form class="callout text-center" action="/submit" method="post" enctype="multipart/form-data">
+        @csrf
+        <h3>Заполните форму и загрузите файлы</h3>
+        <div class="floated-label-wrapper">
+            <label class="show" for="order">Ваше заказ</label>
+            <input type="text" id="order" name="order" value="Холст 20x30 см" readonly="readonly">
+        </div>
+        <div class="floated-label-wrapper">
+            <label class="show" for="price">Стоимость</label>
+            <input type="text" id="price" name="price" value="1000 Руб." readonly="readonly">
+        </div>
         <div class="floated-label-wrapper">
             <label for="full-name">Ваше имя</label>
             <input type="text" id="full-name" name="full-name" placeholder="Ваше имя">
@@ -61,11 +70,14 @@
             <input type="text" id="address" name="address" placeholder="Адрес для доставки">
         </div>
         <div class="floated-label-wrapper">
-            <label for="message">Описание заказа</label>
+            <label for="message">Комментарии к заказу</label>
             <textarea name="message" id="message" rows="12" placeholder="Описание заказа"></textarea>
         </div>
         <div class="floated-label-wrapper">
-            <span style="float: left;">Загрузить файлы <input type="file" id="FileUpload" style="width:initial;"></span>
+            <span style="float: left;">
+                Загрузить файлы
+                <input type="file" id="FileUpload" name="FileUpload" style="width:initial;">
+            </span>
         </div>
         <input class="button expanded" type="submit" value="Сделать заказ">
     </form>

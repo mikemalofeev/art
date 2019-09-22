@@ -640,3 +640,11 @@
     height: 350px;
     border: none;
 }
+
+.menu-text {
+    padding: initial;
+}
+
+.menu-text > a {
+    color: black;
+}
