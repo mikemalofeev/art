@@ -648,3 +648,12 @@
 .menu-text > a {
     color: black;
 }
+
+.main-product-image {
+    text-align: center;
+}
+
+#main-product-image {
+    height: 350px;
+}
+
