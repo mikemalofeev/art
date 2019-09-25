@@ -1,42 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>ПолиГраф | Печать на холсте</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    <link rel="stylesheet" href="/css/ecommerce.css">
+    @include('meta')
 </head>
 <body>
 
-<div class="top-bar">
-    <div class="row">
-        <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-text">ПОЛИГРАФ</li>
-                <!--<li class="has-submenu">-->
-                    <!--<a href="#">One</a>-->
-                    <!--<ul class="submenu menu vertical" data-submenu>-->
-                        <!--<li><a href="#">One</a></li>-->
-                        <!--<li><a href="#">Two</a></li>-->
-                        <!--<li><a href="#">Three</a></li>-->
-                    <!--</ul>-->
-                <!--</li>-->
-                <li><a href="#">Фотохолсты</a></li>
-                <li><a href="#">Полиграфия</a></li>
-                <li><a href="#">Фотосувениры</a></li>
-            </ul>
-        </div>
-        <!--<div class="top-bar-right">-->
-            <!--<ul class="menu">-->
-                <!--<li><input type="search" placeholder="Search"></li>-->
-                <!--<li>-->
-                    <!--<button type="button" class="button">Search</button>-->
-                <!--</li>-->
-            <!--</ul>-->
-        <!--</div>-->
-    </div>
-</div>
+@include('header')
 
 <br>
 
@@ -52,6 +21,7 @@
         </ul>
     </nav>
 </div>
+
 <div class="row">
     <form action="/order" method="post">
 
@@ -232,48 +202,8 @@
 <!--</div>-->
 
 
-<div class="callout large secondary">
-    <div class="row">
-        <div class="large-4 columns">
-            <h5>ПолиГраф | Печать на холсте</h5>
-            <p>
-            <ol class="menu vertical">
-                <li>✓ Услуги дизайна ON-LINE (Разработка макетов)</li>
-                <li>✓ Печать полиграфии (Листовки, визитки, буклеты, открытки)</li>
-                <li>✓ Печать пакетов с логотипом</li>
-                <li>✓ Фото-картины на холсте</li>
-                <li>✓ Фотосувениры</li>
-                <li>✓ ДОСТАВКА по Севастополю БЕСПЛАТНО</li>
-                <li>  + 7 (978) 006-89-56</li>
-            </ol>
-            </p>
-        </div>
-        <div class="large-3 large-offset-2 columns">
-            <ul class="menu vertical">
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Оплата</a></li>
-                <li><a href="#">Доставка</a></li>
-                <li><a href="#">Контакты</a></li>
-                <li><a href="#">Заказать</a></li>
-            </ul>
-        </div>
-        <div class="large-3 columns">
-            <ul class="menu vertical">
-                <li><a href="#">Вконтакте</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <!--<li><a href="#">Four</a></li>-->
-            </ul>
-        </div>
-    </div>
-</div>
+@include('footer')
 
-
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script>
-    $(document).foundation();
-</script>
 <script src="/js/product.js"></script>
 </body>
 </html>
