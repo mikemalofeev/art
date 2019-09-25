@@ -24,7 +24,7 @@
 
 <div class="row">
     <form action="/order" method="post">
-
+        @csrf
     <div class="medium-6 columns">
         <img id="main-product-image" class="thumbnail" src="/image/holst/1.jpg" >
         <!--<img id="main-product-image" class="thumbnail" src="https://placehold.it/650x350">-->
