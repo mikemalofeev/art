@@ -654,6 +654,6 @@
 }
 
 #main-product-image {
-    height: 350px;
+    max-height: 380px;
 }
 

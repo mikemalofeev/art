@@ -61,24 +61,16 @@
             </ol>
         </p>
         <label>Выберите размер
-            <select id="size">
-                <option value="30x40" data-price="1000">30x40 см</option>
-                <option value="40x50" data-price="1200">40x50 см</option>
-                <option value="50x60" data-price="1500">50x60 см</option>
-                <option value="50x70" data-price="2000">50x70 см</option>
+            <select id="size" name="size">
+                <option value="30x40 см" data-price="1000">30x40 см</option>
+                <option value="40x50 см" data-price="1200">40x50 см</option>
+                <option value="50x60 см" data-price="1500">50x60 см</option>
+                <option value="50x70 см" data-price="2000">50x70 см</option>
             </select>
         </label>
-        <!--<div class="row">-->
-            <!--<div class="small-3 columns" >-->
-                <!--<label for="price" class="middle">Цена</label>-->
-            <!--</div>-->
-            <!--<div class="small-9 columns middle">-->
-                <!--<span id="price-field" class="middle">1000 Руб.</span>-->
-                <!--<input type="hidden" id="price" value="1000">-->
-            <!--</div>-->
-        <!--</div>-->
 
-
+        <input type="hidden" id="description" name="description" value="Печать фото на холсте">
+        <input type="hidden" id="price" name="price" value="1000">
 
         <ul class="pricing-table">
             <!--<li class="title">Цена</li>-->
@@ -207,5 +199,7 @@
 @include('footer')
 
 <script src="/js/product.js"></script>
+<script src="/js/options.js"></script>
+
 </body>
 </html>
