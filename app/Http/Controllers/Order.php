@@ -10,11 +10,17 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class Order extends BaseController
 {
-//    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function orderAction(Request $request)
     {
-        return view('order');
+        $data = [
+            'options' => $request->get('size', ''),
+            'description' => $request->get('description', ''),
+            'price' => $request->get('price', 0),
+            'is_submited' => false,
+        ];
+        return view('order', $data);
     }
 
     public function orderSubmitAction(Request $request)
@@ -28,7 +34,12 @@ class Order extends BaseController
 //            'upartner' => $upartner,
 //            'aviakassaHost' => $self->getAviakassaHost(),
 //            'version' => $self->getFrontVersion(),
+            'is_submited' => true,
         ];
+
+        //Добавить капчу к заказу
+        //Отправка почты
+        //Сделать шаблон почты
 
         return view('order', $data);
     }
