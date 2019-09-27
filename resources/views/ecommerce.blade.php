@@ -10,28 +10,28 @@
 
 
 
-<!--<div class="top-bar">-->
-    <!--<div class="top-bar-left">-->
-        <!--<ul class="menu">-->
-            <!--<li class="menu-text">ПОЛИГРАФ</li>-->
-            <!--<li><a href="#">Фотохолсты</a></li>-->
-            <!--<li><a href="#">Полиграфия</a></li>-->
-            <!--<li><a href="#">Фотосувениры</a></li>-->
-        <!--</ul>-->
-    <!--</div>-->
-    <!--&lt;!&ndash;<div class="top-bar-right">&ndash;&gt;-->
-        <!--&lt;!&ndash;<ul class="menu">&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a href="#">Three</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a href="#">Four</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a href="#">Five</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a href="#">Six</a></li>&ndash;&gt;-->
-        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
-    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-<!--</div>-->
+{{--<div class="top-bar">--}}
+    {{--<div class="top-bar-left">--}}
+        {{--<ul class="menu">--}}
+            {{--<li class="menu-text">ПОЛИГРАФ</li>--}}
+            {{--<li><a href="#">Фотохолсты</a></li>--}}
+            {{--<li><a href="#">Полиграфия</a></li>--}}
+            {{--<li><a href="#">Фотосувениры</a></li>--}}
+        {{--</ul>--}}
+    {{--</div>--}}
+    {{--&lt;!&ndash;<div class="top-bar-right">&ndash;&gt;--}}
+        {{--&lt;!&ndash;<ul class="menu">&ndash;&gt;--}}
+            {{--&lt;!&ndash;<li><a href="#">Three</a></li>&ndash;&gt;--}}
+            {{--&lt;!&ndash;<li><a href="#">Four</a></li>&ndash;&gt;--}}
+            {{--&lt;!&ndash;<li><a href="#">Five</a></li>&ndash;&gt;--}}
+            {{--&lt;!&ndash;<li><a href="#">Six</a></li>&ndash;&gt;--}}
+        {{--&lt;!&ndash;</ul>&ndash;&gt;--}}
+    {{--&lt;!&ndash;</div>&ndash;&gt;--}}
+{{--</div>--}}
 
 @include('header')
 
-<!--<br>-->
+{{--<br>--}}
 
 <div class="orbit" role="region" aria-label="Фото" data-orbit>
     <ul class="orbit-container">
@@ -55,10 +55,10 @@
     </ul>
 </div>
 
-<!--<div class="row column text-center">-->
-    <!--<h2>Наши работы</h2>-->
-    <!--<hr>-->
-<!--</div>-->
+{{--<div class="row column text-center">--}}
+    {{--<h2>Наши работы</h2>--}}
+    {{--<hr>--}}
+{{--</div>--}}
 
 <br>
 
@@ -67,7 +67,7 @@
         <h3>Популярные товары</h3>
     </div>
 </div>
-<!--<hr>-->
+{{--<hr>--}}
 
 <div class="row small-up-2 large-up-4">
     <div class="column">
@@ -133,150 +133,150 @@
     {{--</div>--}}
 {{--</div>--}}
 
-<!--<hr>-->
+{{--<hr>--}}
 
 
-<!--<div class="row column">-->
-    <!--<div class="callout primary">-->
-        <!--<h3>Специальные предложения этой недели.</h3>-->
-    <!--</div>-->
-<!--</div>-->
-<!--<hr>-->
-<!--<div class="row column text-center">-->
-    <!--<h2>Другие наши работы</h2>-->
-    <!--<hr>-->
-<!--</div>-->
-<!--<div class="row small-up-2 medium-up-3 large-up-6">-->
-    <!--<div class="column">-->
-        <!--<img class="thumbnail" src="https://placehold.it/300x400">-->
-        <!--<h5>Nulla At Nulla Justo, Eget</h5>-->
-        <!--<p>$400</p>-->
-        <!--<a href="#" class="button small expanded hollow">Заказать</a>-->
-    <!--</div>-->
-    <!--<div class="column">-->
-        <!--<img class="thumbnail" src="https://placehold.it/300x400">-->
-        <!--<h5>Nulla At Nulla Justo, Eget</h5>-->
-        <!--<p>$400</p>-->
-        <!--<a href="#" class="button small expanded hollow">Заказать</a>-->
-    <!--</div>-->
-    <!--<div class="column">-->
-        <!--<img class="thumbnail" src="https://placehold.it/300x400">-->
-        <!--<h5>Nulla At Nulla Justo, Eget</h5>-->
-        <!--<p>$400</p>-->
-        <!--<a href="#" class="button small expanded hollow">Заказать</a>-->
-    <!--</div>-->
-    <!--<div class="column">-->
-        <!--<img class="thumbnail" src="https://placehold.it/300x400">-->
-        <!--<h5>Nulla At Nulla Justo, Eget</h5>-->
-        <!--<p>$400</p>-->
-        <!--<a href="#" class="button small expanded hollow">Заказать</a>-->
-    <!--</div>-->
-    <!--<div class="column">-->
-        <!--<img class="thumbnail" src="https://placehold.it/300x400">-->
-        <!--<h5>Nulla At Nulla Justo, Eget</h5>-->
-        <!--<p>$400</p>-->
-        <!--<a href="#" class="button small expanded hollow">Заказать</a>-->
-    <!--</div>-->
-    <!--<div class="column">-->
-        <!--<img class="thumbnail" src="https://placehold.it/300x400">-->
-        <!--<h5>Nulla At Nulla Justo, Eget</h5>-->
-        <!--<p>$400</p>-->
-        <!--<a href="#" class="button small expanded hollow">Заказать</a>-->
-    <!--</div>-->
-<!--</div>-->
-<!--<hr>-->
-<!--<div class="row">-->
-    <!--<div class="medium-4 columns">-->
-        <!--<h4>Top Products</h4>-->
-        <!--<div class="media-object">-->
-            <!--<div class="media-object-section">-->
-                <!--<img class="thumbnail" src="https://placehold.it/100x100">-->
-            <!--</div>-->
-            <!--<div class="media-object-section">-->
-                <!--<h5>Nunc Eu Ullamcorper Orci</h5>-->
-                <!--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="media-object">-->
-            <!--<div class="media-object-section">-->
-                <!--<img class="thumbnail" src="https://placehold.it/100x100">-->
-            <!--</div>-->
-            <!--<div class="media-object-section">-->
-                <!--<h5>Nunc Eu Ullamcorper Orci</h5>-->
-                <!--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="media-object">-->
-            <!--<div class="media-object-section">-->
-                <!--<img class="thumbnail" src="https://placehold.it/100x100">-->
-            <!--</div>-->
-            <!--<div class="media-object-section">-->
-                <!--<h5>Nunc Eu Ullamcorper Orci</h5>-->
-                <!--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="medium-4 columns">-->
-        <!--<h4>Top Products</h4>-->
-        <!--<div class="media-object">-->
-            <!--<div class="media-object-section">-->
-                <!--<img class="thumbnail" src="https://placehold.it/100x100">-->
-            <!--</div>-->
-            <!--<div class="media-object-section">-->
-                <!--<h5>Nunc Eu Ullamcorper Orci</h5>-->
-                <!--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="media-object">-->
-            <!--<div class="media-object-section">-->
-                <!--<img class="thumbnail" src="https://placehold.it/100x100">-->
-            <!--</div>-->
-            <!--<div class="media-object-section">-->
-                <!--<h5>Nunc Eu Ullamcorper Orci</h5>-->
-                <!--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="media-object">-->
-            <!--<div class="media-object-section">-->
-                <!--<img class="thumbnail" src="https://placehold.it/100x100">-->
-            <!--</div>-->
-            <!--<div class="media-object-section">-->
-                <!--<h5>Nunc Eu Ullamcorper Orci</h5>-->
-                <!--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="medium-4 columns">-->
-        <!--<h4>Top Products</h4>-->
-        <!--<div class="media-object">-->
-            <!--<div class="media-object-section">-->
-                <!--<img class="thumbnail" src="https://placehold.it/100x100">-->
-            <!--</div>-->
-            <!--<div class="media-object-section">-->
-                <!--<h5>Nunc Eu Ullamcorper Orci</h5>-->
-                <!--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="media-object">-->
-            <!--<div class="media-object-section">-->
-                <!--<img class="thumbnail" src="https://placehold.it/100x100">-->
-            <!--</div>-->
-            <!--<div class="media-object-section">-->
-                <!--<h5>Nunc Eu Ullamcorper Orci</h5>-->
-                <!--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="media-object">-->
-            <!--<div class="media-object-section">-->
-                <!--<img class="thumbnail" src="https://placehold.it/100x100">-->
-            <!--</div>-->
-            <!--<div class="media-object-section">-->
-                <!--<h5>Nunc Eu Ullamcorper Orci</h5>-->
-                <!--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</div>-->
+{{--<div class="row column">--}}
+    {{--<div class="callout primary">--}}
+        {{--<h3>Специальные предложения этой недели.</h3>--}}
+    {{--</div>--}}
+{{--</div>--}}
+{{--<hr>--}}
+{{--<div class="row column text-center">--}}
+    {{--<h2>Другие наши работы</h2>--}}
+    {{--<hr>--}}
+{{--</div>--}}
+{{--<div class="row small-up-2 medium-up-3 large-up-6">--}}
+    {{--<div class="column">--}}
+        {{--<img class="thumbnail" src="https://placehold.it/300x400">--}}
+        {{--<h5>Nulla At Nulla Justo, Eget</h5>--}}
+        {{--<p>$400</p>--}}
+        {{--<a href="#" class="button small expanded hollow">Заказать</a>--}}
+    {{--</div>--}}
+    {{--<div class="column">--}}
+        {{--<img class="thumbnail" src="https://placehold.it/300x400">--}}
+        {{--<h5>Nulla At Nulla Justo, Eget</h5>--}}
+        {{--<p>$400</p>--}}
+        {{--<a href="#" class="button small expanded hollow">Заказать</a>--}}
+    {{--</div>--}}
+    {{--<div class="column">--}}
+        {{--<img class="thumbnail" src="https://placehold.it/300x400">--}}
+        {{--<h5>Nulla At Nulla Justo, Eget</h5>--}}
+        {{--<p>$400</p>--}}
+        {{--<a href="#" class="button small expanded hollow">Заказать</a>--}}
+    {{--</div>--}}
+    {{--<div class="column">--}}
+        {{--<img class="thumbnail" src="https://placehold.it/300x400">--}}
+        {{--<h5>Nulla At Nulla Justo, Eget</h5>--}}
+        {{--<p>$400</p>--}}
+        {{--<a href="#" class="button small expanded hollow">Заказать</a>--}}
+    {{--</div>--}}
+    {{--<div class="column">--}}
+        {{--<img class="thumbnail" src="https://placehold.it/300x400">--}}
+        {{--<h5>Nulla At Nulla Justo, Eget</h5>--}}
+        {{--<p>$400</p>--}}
+        {{--<a href="#" class="button small expanded hollow">Заказать</a>--}}
+    {{--</div>--}}
+    {{--<div class="column">--}}
+        {{--<img class="thumbnail" src="https://placehold.it/300x400">--}}
+        {{--<h5>Nulla At Nulla Justo, Eget</h5>--}}
+        {{--<p>$400</p>--}}
+        {{--<a href="#" class="button small expanded hollow">Заказать</a>--}}
+    {{--</div>--}}
+{{--</div>--}}
+{{--<hr>--}}
+{{--<div class="row">--}}
+    {{--<div class="medium-4 columns">--}}
+        {{--<h4>Top Products</h4>--}}
+        {{--<div class="media-object">--}}
+            {{--<div class="media-object-section">--}}
+                {{--<img class="thumbnail" src="https://placehold.it/100x100">--}}
+            {{--</div>--}}
+            {{--<div class="media-object-section">--}}
+                {{--<h5>Nunc Eu Ullamcorper Orci</h5>--}}
+                {{--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="media-object">--}}
+            {{--<div class="media-object-section">--}}
+                {{--<img class="thumbnail" src="https://placehold.it/100x100">--}}
+            {{--</div>--}}
+            {{--<div class="media-object-section">--}}
+                {{--<h5>Nunc Eu Ullamcorper Orci</h5>--}}
+                {{--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="media-object">--}}
+            {{--<div class="media-object-section">--}}
+                {{--<img class="thumbnail" src="https://placehold.it/100x100">--}}
+            {{--</div>--}}
+            {{--<div class="media-object-section">--}}
+                {{--<h5>Nunc Eu Ullamcorper Orci</h5>--}}
+                {{--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="medium-4 columns">--}}
+        {{--<h4>Top Products</h4>--}}
+        {{--<div class="media-object">--}}
+            {{--<div class="media-object-section">--}}
+                {{--<img class="thumbnail" src="https://placehold.it/100x100">--}}
+            {{--</div>--}}
+            {{--<div class="media-object-section">--}}
+                {{--<h5>Nunc Eu Ullamcorper Orci</h5>--}}
+                {{--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="media-object">--}}
+            {{--<div class="media-object-section">--}}
+                {{--<img class="thumbnail" src="https://placehold.it/100x100">--}}
+            {{--</div>--}}
+            {{--<div class="media-object-section">--}}
+                {{--<h5>Nunc Eu Ullamcorper Orci</h5>--}}
+                {{--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="media-object">--}}
+            {{--<div class="media-object-section">--}}
+                {{--<img class="thumbnail" src="https://placehold.it/100x100">--}}
+            {{--</div>--}}
+            {{--<div class="media-object-section">--}}
+                {{--<h5>Nunc Eu Ullamcorper Orci</h5>--}}
+                {{--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="medium-4 columns">--}}
+        {{--<h4>Top Products</h4>--}}
+        {{--<div class="media-object">--}}
+            {{--<div class="media-object-section">--}}
+                {{--<img class="thumbnail" src="https://placehold.it/100x100">--}}
+            {{--</div>--}}
+            {{--<div class="media-object-section">--}}
+                {{--<h5>Nunc Eu Ullamcorper Orci</h5>--}}
+                {{--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="media-object">--}}
+            {{--<div class="media-object-section">--}}
+                {{--<img class="thumbnail" src="https://placehold.it/100x100">--}}
+            {{--</div>--}}
+            {{--<div class="media-object-section">--}}
+                {{--<h5>Nunc Eu Ullamcorper Orci</h5>--}}
+                {{--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="media-object">--}}
+            {{--<div class="media-object-section">--}}
+                {{--<img class="thumbnail" src="https://placehold.it/100x100">--}}
+            {{--</div>--}}
+            {{--<div class="media-object-section">--}}
+                {{--<h5>Nunc Eu Ullamcorper Orci</h5>--}}
+                {{--<p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</div>--}}
 
 
 
