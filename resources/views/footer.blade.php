@@ -10,7 +10,7 @@
                 <li>✓ Фото-картины на холсте</li>
                 <li>✓ Фотосувениры</li>
                 <li>✓ ДОСТАВКА по Севастополю БЕСПЛАТНО</li>
-                <li>  + 7 (978) 006-89-56</li>
+                {{--<li>  + 7 (978) 006-89-56</li>--}}
             </ol>
             </p>
         </div>
@@ -25,10 +25,12 @@
         </div>
         <div class="large-3 columns">
             <ul class="menu vertical">
-                <li><a href="#">Вконтакте</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <!--<li><a href="#">Four</a></li>-->
+                <li><a href="https://vk.com/fotosalon92">Вконтакте</a></li>
+                <li><a href="https://www.instagram.com/fotosev92/">Instagram</a></li>
+                {{--<li><a href="#">Facebook</a></li>--}}
+                <li><a href="mailto:artprestige2012@ya.ru">Email</a></li>
+                <li><a href="tel:+79780068956">+ 7 (978) 006-89-56</a></li>
+                {{--<!--<li><a href="#">Four</a></li>-->--}}
             </ul>
         </div>
     </div>

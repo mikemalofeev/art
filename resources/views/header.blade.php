@@ -11,9 +11,10 @@
                 <!--<li><a href="#">Three</a></li>-->
                 <!--</ul>-->
                 <!--</li>-->
-                <li><a href="/holst">Фотохолсты</a></li>
-                <li><a href="#">Полиграфия</a></li>
-                <li><a href="#">Фотосувениры</a></li>
+
+                {{--<li><a href="/holst">Фотохолсты</a></li>--}}
+                {{--<li><a href="#">Полиграфия</a></li>--}}
+                {{--<li><a href="#">Фотосувениры</a></li>--}}
             </ul>
         </div>
         <!--<div class="top-bar-right">-->
