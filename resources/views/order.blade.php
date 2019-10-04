@@ -35,7 +35,7 @@
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="phone">Номер телефона</label>
-            <input type="text" id="phone" name="telephone" placeholder="Номер телефона" required>
+            <input type="text" id="phone" name="telephone" placeholder="Номер телефона" pattern="number" required>
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="address">Адрес для доставки</label>

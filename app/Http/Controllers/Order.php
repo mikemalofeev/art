@@ -40,6 +40,7 @@ class Order extends BaseController
         //Добавить капчу к заказу
         //Отправка почты
         //Сделать шаблон почты
+        //Добавить маску телефона
 
         return view('order', $data);
     }
