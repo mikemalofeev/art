@@ -11,13 +11,15 @@
 <br>
 
 <div class="column row">
+
+    @if (!$is_submited)
     <form class="callout text-center" action="/submit" method="post" enctype="multipart/form-data">
         @csrf
         <input type="hidden" id="data" name="data" data-options="{{ $options }}" data-description="{{ $description }}" data-description="{{ $price }}">
         <h3>Заполните форму и загрузите файлы</h3>
         <div class="floated-label-wrapper">
             <label class="show" for="order">Ваш заказ</label>
-            <input type="text" id="order" name="order" value="{{ $description }} {{ $options }}" placeholder="Ваш заказ">
+            <input type="text" id="order" name="order" value="{{ $description }} {{ $options }}" required placeholder="Ваш заказ">
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="price">Стоимость, руб.</label>
@@ -25,15 +27,15 @@
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="full-name">Ваше имя</label>
-            <input type="text" id="full-name" name="full-name" placeholder="Ваше имя">
+            <input type="text" id="full-name" name="full-name" placeholder="Ваше имя" required>
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email">
+            <input type="email" id="email" name="email" placeholder="Email" required>
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="phone">Номер телефона</label>
-            <input type="text" id="phone" name="telephone" placeholder="Номер телефона">
+            <input type="text" id="phone" name="telephone" placeholder="Номер телефона" required>
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="address">Адрес для доставки</label>
@@ -51,7 +53,9 @@
         </div>
         <input class="button expanded" type="submit" value="Сделать заказ">
     </form>
-
+    @else
+        fhdgd
+    @endif
 
 </div>
 

@@ -42,5 +42,14 @@
 <script>
     $(document).foundation();
 </script>
-<script src="//code.jivosite.com/widget.js" data-jv-id="tMtgcw6Xue" async></script>
+
+
+{{--<script src="//code.jivosite.com/widget.js" data-jv-id="tMtgcw6Xue" async></script>--}}
+
+<!-- VK Widget -->
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?161"></script>
+<div id="vk_community_messages"></div>
+<script type="text/javascript">
+    VK.Widgets.CommunityMessages("vk_community_messages", 47050792, {expanded: "0",tooltipButtonText: "Готовы принять заказ онлайн. Сообщите в чат вид заказа, свои контактные данные для связи, можно приложить свои фото к заказу", "group_id":47050792-127607773, "welcomeScreen":0});
+</script>
 
