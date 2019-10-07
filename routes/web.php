@@ -24,6 +24,10 @@ Route::get('/holst', function () {
     return view('holst');
 });
 
+Route::get('/contacts', function () {
+    return view('contacts');
+});
+
 Route::get('/order', 'Order@orderAction');
 Route::post('/order', 'Order@orderAction');
 
