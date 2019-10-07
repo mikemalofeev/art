@@ -17,7 +17,7 @@ class Order extends BaseController
         $data = [
             'options' => $request->get('size', ''),
             'description' => $request->get('description', ''),
-            'price' => $request->get('price', 0),
+            'price' => $request->get('price', ''),
             'is_submited' => false,
         ];
         return view('order', $data);

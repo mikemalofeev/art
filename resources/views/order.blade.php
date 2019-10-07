@@ -35,7 +35,7 @@
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="phone">Номер телефона</label>
-            <input type="text" id="phone" name="telephone" placeholder="Номер телефона" pattern="number" required>
+            <input type="text" id="phone" name="telephone" placeholder="Номер телефона" required>
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="address">Адрес для доставки</label>
@@ -62,5 +62,8 @@
 @include('footer')
 
 <script src="/js/order.js"></script>
+{{--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>--}}
+<script src="/js/jquery.maskedinput.js"></script>
+
 </body>
 </html>
