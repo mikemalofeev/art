@@ -631,14 +631,16 @@
     display: inline-block;
     max-width: 100%;
     margin-bottom: 1rem;
-    border: solid 4px #fefefe;
-    border-radius: 0;
+    /*border: solid 4px #fefefe;*/
+    /*border-radius: 0;*/
+
+    border-radius: 3px;
+    border: none;
+
     box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
     line-height: 0;
-    border-radius: 3px;
     width: 600px;
     height: 350px;
-    border: none;
 }
 
 .menu-text {

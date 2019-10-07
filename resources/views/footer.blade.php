@@ -1,4 +1,4 @@
-<div class="callout large secondary">
+<footer class="callout large secondary">
     <div class="row">
         <div class="large-4 columns">
             <h5>ПолиГраф | Печать на холсте</h5>
@@ -16,11 +16,11 @@
         </div>
         <div class="large-3 large-offset-2 columns">
             <ul class="menu vertical">
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Оплата</a></li>
-                <li><a href="#">Доставка</a></li>
-                <li><a href="#">Контакты</a></li>
-                <li><a href="#">Заказать</a></li>
+                <li><a href="/about">О нас</a></li>
+                <li><a href="/payment">Оплата</a></li>
+                <li><a href="/shipment">Доставка</a></li>
+                <li><a href="/contacts">Контакты</a></li>
+                <li><a href="/order">Заказать</a></li>
             </ul>
         </div>
         <div class="large-3 columns">
@@ -34,7 +34,7 @@
             </ul>
         </div>
     </div>
-</div>
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
