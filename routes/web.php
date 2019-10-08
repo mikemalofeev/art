@@ -28,6 +28,14 @@ Route::get('/contacts', function () {
     return view('contacts');
 });
 
+Route::get('/payment', function () {
+    return view('payment');
+});
+
+Route::get('/shipment', function () {
+    return view('shipment');
+});
+
 Route::get('/order', 'Order@orderAction');
 Route::post('/order', 'Order@orderAction');
 
