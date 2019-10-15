@@ -77,7 +77,7 @@ return [
     |
     */
 
-//    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
 
     /*
     |--------------------------------------------------------------------------
@@ -90,9 +90,9 @@ return [
     |
     */
 
-//    'username' => env('MAIL_USERNAME'),
-//
-//    'password' => env('MAIL_PASSWORD'),
+    'username' => env('MAIL_USERNAME', ''),
+
+    'password' => env('MAIL_PASSWORD', ''),
 
     /*
     |--------------------------------------------------------------------------

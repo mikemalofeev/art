@@ -29,15 +29,16 @@ class Order extends BaseController
     {
 
         $data = [
-            'order' => $request->get('order'),
-            'price' => $request->get('price'),
-            'name' => $request->get('full-name'),
-            'email' => $request->get('email'),
-            'phone' => $request->get('telephone'),
-            'address' => $request->get('address'),
-            'comments' => $request->get('message'),
+            'order' => $request->get('order', '-'),
+            'price' => $request->get('price', '-'),
+            'name' => $request->get('full-name', '-'),
+            'email' => $request->get('email', ''),
+            'phone' => $request->get('telephone', '-'),
+            'address' => $request->get('address', '-'),
+            'comments' => $request->get('message', '-'),
             'is_submited' => true,
         ];
+
         Mail::send('email', $data, function(Message $message) use ($request)
         {
             $message->from('artprestige2012@ya.ru', 'Типография Полиграф');
