@@ -36,6 +36,10 @@ Route::get('/shipment', function () {
     return view('shipment');
 });
 
+Route::get('/email', function () {
+    return view('email');
+});
+
 Route::get('/order', 'Order@orderAction');
 Route::post('/order', 'Order@orderAction');
 

@@ -27,18 +27,18 @@ class Order extends BaseController
     {
 
         $data = [
-//            'baseUrl' => $baseUrl,
-//            'theme' => $utheme,
-//            'uname' => $uname,
-//            'ulogin' => $uLogin,
-//            'upartner' => $upartner,
-//            'aviakassaHost' => $self->getAviakassaHost(),
-//            'version' => $self->getFrontVersion(),
+            'order' => $request->get('order'),
+            'price' => $request->get('price'),
+            'name' => $request->get('full-name'),
+            'email' => $request->get('email'),
+            'phone' => $request->get('telephone'),
+            'address' => $request->get('address'),
+            'comments' => $request->get('message'),
             'is_submited' => true,
         ];
         //Отправка почты
         //Сделать шаблон почты
 
-        return view('order', $data);
+        return view('email', $data);
     }
 }

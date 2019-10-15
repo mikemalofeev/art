@@ -15,7 +15,7 @@
     @if (!$is_submited)
     <form class="callout text-center" action="/submit" method="post" enctype="multipart/form-data">
         @csrf
-        <input type="hidden" id="data" name="data" data-options="{{ $options }}" data-description="{{ $description }}" data-description="{{ $price }}">
+        {{--<input type="hidden" id="data" name="data" data-options="{{ $options }}" data-description="{{ $description }}">--}}
         <h3>Заполните форму заказа</h3>
         <div class="floated-label-wrapper">
             <label class="show" for="order">Ваш заказ</label>
@@ -57,7 +57,7 @@
         <div style="height: 350px;font-size: 18px;">
             Спасибо, что сделали у нас заказ!<br /><br />
             После обработки заказа с Вами свяжется наш менеджер.<br /><br />
-            Для начала выполнения заказа требуется осуществить оплату заказа<br /><br />
+            Для начала выполнения заказа необходимо произвести оплату<br /><br />
             <a href="/payment">Перейти к оплате</a><br /><br />
             {{--<a href="/contacts">Наши контакты</a>--}}
         </div>
