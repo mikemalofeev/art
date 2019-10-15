@@ -36,12 +36,8 @@ class Order extends BaseController
 //            'version' => $self->getFrontVersion(),
             'is_submited' => true,
         ];
-$a = $request->allFiles();
-        //Добавить капчу к заказу
         //Отправка почты
         //Сделать шаблон почты
-        //Добавить маску телефона
-        //Добавить ссылку на файлы
 
         return view('order', $data);
     }

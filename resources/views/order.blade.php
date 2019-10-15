@@ -19,11 +19,11 @@
         <h3>Заполните форму заказа</h3>
         <div class="floated-label-wrapper">
             <label class="show" for="order">Ваш заказ</label>
-            <input type="text" id="order" name="order" value="{{ $description }} {{ $options }}" required placeholder="Укажите название, размеры и др.">
+            <input type="text" id="order" name="order" value="{{ $description }} {{ $options }}" readonly placeholder="Укажите название, размеры и др.">
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="price">Стоимость, руб.</label>
-            <input type="text" id="price" name="price" value="{{ $price }}" placeholder="Стоимость, руб.">
+            <input type="text" id="price" name="price" value="{{ $price }}" readonly placeholder="Стоимость, руб.">
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="full-name">Ваше имя</label>
@@ -43,7 +43,7 @@
         </div>
         <div class="floated-label-wrapper">
             <label class="show" for="message">Комментарии к заказу</label>
-            <textarea name="message" id="message" rows="12" placeholder="Комментарии к заказу. Здесь можно оставить ссылки на ваши фотографии."></textarea>
+            <textarea name="message" id="message" rows="3" placeholder="Комментарии к заказу. Здесь можно оставить ссылки на ваши фотографии."></textarea>
         </div>
         {{--<div class="floated-label-wrapper">--}}
             {{--<span style="float: left;">--}}
