@@ -77,7 +77,7 @@
 												
 												<h5 class="">Связаться с нами:</h5>
 												<p class="">
-                                                    <a href="#" class="soc-btn fb">Вконтакте</a>
+                                                    <a href="https://vk.com/fotosalon92" class="soc-btn fb">Вконтакте</a>
                                                     {{--<a href="#" class="soc-btn tw">Twitter</a> --}}
                                                     {{--<a href="#" class="soc-btn gp">Google+</a>--}}
                                                 </p>

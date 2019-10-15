@@ -41,6 +41,7 @@ class Order extends BaseController
 
         Mail::send('email', $data, function(Message $message) use ($request)
         {
+            $message->setSubject('Заказ в типографии Полиграф');
             $message->from('artprestige2012@ya.ru', 'Типография Полиграф');
 
             $message->to($request->get('email'));
