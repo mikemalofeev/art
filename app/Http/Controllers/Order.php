@@ -4,9 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Http\Request;
+use Illuminate\Mail\Message;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Illuminate\Support\Facades\Mail;
 
 class Order extends BaseController
 {
@@ -36,8 +38,12 @@ class Order extends BaseController
             'comments' => $request->get('message'),
             'is_submited' => true,
         ];
-        //Отправка почты
-        //Сделать шаблон почты
+        Mail::send('email', $data, function(Message $message) use ($request)
+        {
+            $message->from('artprestige2012@ya.ru', 'Типография Полиграф');
+
+            $message->to($request->get('email'));
+        });
 
         return view('order', $data);
     }
