@@ -39,6 +39,6 @@ class Order extends BaseController
         //Отправка почты
         //Сделать шаблон почты
 
-        return view('email', $data);
+        return view('order', $data);
     }
 }

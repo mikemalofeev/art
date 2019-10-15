@@ -15,10 +15,10 @@
 
     <div style="height: 350px;font-size: 18px;">
 
-        Для получения дополнительной информации можете связаться с нами:<br /><br />
+        Для получения дополнительной информации можете связаться с нами:<br />
         <ul class="" style="list-style-type: none;">
-            <li>✓ по телефону <a href="tel:+79780068956">+ 7 (978) 006-89-56</a> доступны в Viber, WhatsApp</li>
-            <li>✓ по email <a href="mailto:artprestige2012@ya.ru">artprestige2012@ya.ru</a></li>
+            <li>✓ телефон <a href="tel:+79780068956">+ 7 (978) 006-89-56</a> доступны в Viber, WhatsApp</li>
+            <li>✓ email <a href="mailto:artprestige2012@ya.ru">artprestige2012@ya.ru</a></li>
             <li>✓ <a href="https://vk.com/fotosalon92">Вконтакте</a></li>
         </ul>
     </div>
