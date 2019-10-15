@@ -94,7 +94,7 @@
 																			
 												<h5 class="">Контакты:</h5>
 												<p>Телефон: <strong>+ 7 (978) 006-89-56</strong><br/>
-                Email: <strong><a href="emailto:artprestige2012@ya.ru">artprestige2012@ya.ru</a></strong></p>
+                Email: <strong><a href="mailto:artprestige2012@ya.ru">artprestige2012@ya.ru</a></strong></p>
                 
 											</td>
 										</tr>
