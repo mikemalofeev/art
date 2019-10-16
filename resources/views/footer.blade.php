@@ -17,9 +17,13 @@
         <div class="large-3 large-offset-2 columns">
             <ul class="menu vertical">
                 {{--<li><a href="/about">О нас</a></li>--}}
+                <li><a href="/">Главная</a></li>
+
                 <li><a href="/payment">Оплата</a></li>
                 <li><a href="/shipment">Доставка</a></li>
                 <li><a href="/contacts">Контакты</a></li>
+                <li><a href="/">Услуги</a></li>
+
                 {{--<li><a href="/order">Заказать</a></li>--}}
             </ul>
         </div>
