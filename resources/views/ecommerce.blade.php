@@ -110,6 +110,43 @@
 
 <div class="row small-up-2 large-up-4">
     <div class="column">
+        <a href="/puzzle">
+            <img class="thumbnail product-img" src="/image/products/puzzle.jpg">
+        </a>
+        <h5>Фото-пазл</h5><br />
+        <p>от 1200 руб</p>
+        <a href="#" class="button expanded">Выбрать</a>
+    </div>
+    <div class="column">
+        <a href="/magnets">
+            <img class="thumbnail product-img" src="/image/products/magnets.jpg">
+        </a>
+        <h5>Фото-магнитики</h5><br />
+        <p>от 100 руб</p>
+        <a href="#" class="button expanded">Выбрать</a>
+    </div>
+    <div class="column">
+        <a href="/cups">
+            <img class="thumbnail product-img" src="/image/products/cups.jpg">
+        </a>
+        <h5>Кружки</h5><br />
+        <p>от 500 руб</p>
+        <a href="#" class="button expanded">Выбрать</a>
+    </div>
+    <div class="column">
+        <a href="/packets">
+            <img class="thumbnail product-img" src="/image/products/packets.jpg">
+        </a>
+        <h5>Пакеты</h5><br />
+        <p>от 500 руб</p>
+        <a href="#" class="button expanded">Выбрать</a>
+    </div>
+</div>
+
+<hr>
+
+<div class="row small-up-2 large-up-4">
+    <div class="column">
         <a href="/cards">
             <img class="thumbnail product-img" src="/image/products/cards.jpg">
         </a>
@@ -130,6 +167,14 @@
             <img class="thumbnail product-img" src="/image/products/cups.jpg">
         </a>
         <h5>Кружки</h5><br />
+        <p>от 500 руб</p>
+        <a href="#" class="button expanded">Выбрать</a>
+    </div>
+    <div class="column">
+        <a href="/packets">
+            <img class="thumbnail product-img" src="/image/products/packets.jpg">
+        </a>
+        <h5>Пакеты</h5><br />
         <p>от 500 руб</p>
         <a href="#" class="button expanded">Выбрать</a>
     </div>
