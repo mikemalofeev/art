@@ -74,8 +74,7 @@
         <a href="/holst">
             <img class="thumbnail product-img" src="/image/products/holst.jpg">
         </a>
-        <h5>Фото на холсте</h5>
-        <br />
+        <h5>Фото на холсте <br /> &nbsp;</h5>
         <p>от 870 руб</p>
         <a href="/holst" class="button expanded">Выбрать</a>
     </div>
@@ -83,8 +82,7 @@
         <a href="/kollage">
             <img class="thumbnail product-img" src="/image/products/kollage.jpg">
         </a>
-        <h5>Фото-коллаж на холсте</h5>
-        <br />
+        <h5>Фото-коллаж на холсте <br /> &nbsp;</h5>
         <p>от 1646 руб</p>
         <a href="#" class="button expanded">Выбрать</a>
     </div>
@@ -110,6 +108,14 @@
 
 <div class="row small-up-2 large-up-4">
     <div class="column">
+        <a href="/tree">
+            <img class="thumbnail product-img" src="/image/products/tree.jpg">
+        </a>
+        <h5>Родословное дерево 50х90 см на холсте</h5>
+        <p>6548 руб</p>
+        <a href="#" class="button expanded">Выбрать</a>
+    </div>
+    <div class="column">
         <a href="/composition">
             <img class="thumbnail product-img" src="/image/products/composition.jpg">
         </a>
@@ -121,7 +127,7 @@
         <a href="/puzzle">
             <img class="thumbnail product-img" src="/image/products/puzzle.jpg">
         </a>
-        <h5>Фото-пазл</h5><br />
+        <h5>Фото-пазл <br /> &nbsp;</h5>
         <p>от 1200 руб</p>
         <a href="#" class="button expanded">Выбрать</a>
     </div>
@@ -129,16 +135,8 @@
         <a href="/magnets">
             <img class="thumbnail product-img" src="/image/products/magnets.jpg">
         </a>
-        <h5>Фото-магнитики</h5><br />
+        <h5>Фото-магнитики <br /> &nbsp;</h5>
         <p>от 100 руб</p>
-        <a href="#" class="button expanded">Выбрать</a>
-    </div>
-    <div class="column">
-        <a href="/tree">
-            <img class="thumbnail product-img" src="/image/products/magnets.jpg">
-        </a>
-        <h5>Родословное дерево 50х90 см на холсте</h5><br />
-        <p>6548 руб</p>
         <a href="#" class="button expanded">Выбрать</a>
     </div>
 
@@ -151,7 +149,7 @@
         <a href="/cards">
             <img class="thumbnail product-img" src="/image/products/cards.jpg">
         </a>
-        <h5>Визитки</h5><br />
+        <h5>Визитки <br /> &nbsp;</h5>
         <p>от 450 руб</p>
         <a href="#" class="button expanded">Выбрать</a>
     </div>
@@ -159,7 +157,7 @@
         <a href="/stickers">
             <img class="thumbnail product-img" src="/image/products/stickers.jpg">
         </a>
-        <h5>Наклейки</h5><br />
+        <h5>Наклейки <br /> &nbsp;</h5>
         <p>от 800 руб</p>
         <a href="#" class="button expanded">Выбрать</a>
     </div>
@@ -167,7 +165,7 @@
         <a href="/cups">
             <img class="thumbnail product-img" src="/image/products/cups.jpg">
         </a>
-        <h5>Кружки</h5><br />
+        <h5>Кружки <br /> &nbsp;</h5>
         <p>от 500 руб</p>
         <a href="#" class="button expanded">Выбрать</a>
     </div>
@@ -175,7 +173,7 @@
         <a href="/packets">
             <img class="thumbnail product-img" src="/image/products/packets.jpg">
         </a>
-        <h5>Пакеты</h5><br />
+        <h5>Пакеты <br /> &nbsp;</h5>
         <p>от 500 руб</p>
         <a href="#" class="button expanded">Выбрать</a>
     </div>
