@@ -1,3 +1,8 @@
+@php
+    $name = 'Фото на холсте';
+    $folder = '/image/holst';
+@endphp
+
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -27,21 +32,21 @@
         @csrf
     <div class="medium-6 columns">
         <div class="main-product-image">
-            <img id="main-product-image" class="thumbnail" src="/image/holst/1.jpg" >
+            <img id="main-product-image" class="thumbnail" src="{{$folder}}/1.jpg" >
         </div>
         {{--<img id="main-product-image" class="thumbnail" src="https://placehold.it/650x350">--}}
         <div class="row small-up-4">
             <div class="column product-thumbs">
-                <img class="thumbnail sim-thumb mini-product-img" src="/image/holst/1.jpg" data-image="/image/holst/1.jpg">
+                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/1.jpg" data-image="{{$folder}}/1.jpg">
             </div>
             <div class="column product-thumbs">
-                <img class="thumbnail sim-thumb mini-product-img" src="/image/holst/2.jpg" data-image="/image/holst/2.jpg">
+                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/2.jpg" data-image="{{$folder}}/2.jpg">
             </div>
             <div class="column product-thumbs">
-                <img class="thumbnail sim-thumb mini-product-img" src="/image/holst/3.jpg" data-image="/image/holst/3.jpg">
+                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">
             </div>
             <div class="column product-thumbs">
-                <img class="thumbnail sim-thumb mini-product-img" src="/image/holst/4.jpg" data-image="/image/holst/4.jpg">
+                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/4.jpg" data-image="{{$folder}}/4.jpg">
             </div>
             {{--<div class="column">--}}
                 {{--<img class="thumbnail sim-thumb" src="https://placehold.it/250x200">--}}
@@ -50,7 +55,7 @@
     </div>
 
     <div class="medium-6 large-5 columns">
-        <h3>Печать фото на холсте</h3>
+        <h3>{{$name}}</h3>
         {{--<p>Что входит в цену:</p>--}}
         <p>
             <ol class="menu vertical">
@@ -59,6 +64,9 @@
                 <li>- изготовление деревянного подрамника из сосны</li>
                 <li>- галерейная натяжка холста на подрамник</li>
             </ol>
+        </p>
+        <p>
+            *При оформлении заказа больше 4000 руб - мы дарим Вам накопительную бонусную карту -5%. Скидка начисляется сразу.
         </p>
         <label>Выберите размер
             <select id="size" name="size">
@@ -76,12 +84,12 @@
             </select>
         </label>
 
-        <input type="hidden" id="description" name="description" value="Печать фото на холсте">
-        <input type="hidden" id="price" name="price" value="1000">
+        <input type="hidden" id="description" name="description" value="{{$name}}">
+        <input type="hidden" id="price" name="price" value="0">
 
         <ul class="pricing-table">
             {{--<li class="title">Цена</li>--}}
-            <li class="price">1000 Руб.</li>
+            <li class="price">0 Руб.</li>
             {{--<li class="description">Размер</li>--}}
             {{--<li>30x40 см</li>--}}
             {{--<li>7GB of Power</li>--}}
