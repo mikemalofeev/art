@@ -16,6 +16,10 @@ Route::get('/', function () {
     return view('ecommerce');
 });
 
+Route::get('/{action}', function ($action) {
+    return view($action);
+});
+
 Route::get('/product', function () {
     return view('product');
 });

@@ -47,7 +47,7 @@
             <a href="/holst"><img class="banner-img" src="/image/1.jpg"></a>
         </li>
         <li class="orbit-slide">
-            <a href="/holst"><img class="banner-img" src="/image/2.jpg"></a>
+            <a href="/popart"><img class="banner-img" src="/image/2.jpg"></a>
         </li>
         <li class="orbit-slide">
             <a href="/holst"><img class="banner-img" src="/image/3.jpg"></a>
@@ -72,10 +72,10 @@
 <div class="row small-up-2 large-up-4">
     <div class="column">
         <a href="/holst">
-            <img class="thumbnail product-img" src="/image/products/photo.jpg">
+            <img class="thumbnail product-img" src="/image/products/holst.jpg">
         </a>
         <h5>Фото-Холст</h5>
-        <p>от 900 руб</p>
+        <p>от 870 руб</p>
         <a href="/holst" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -104,7 +104,42 @@
     </div>
 </div>
 
-{{--<hr>--}}
+<hr>
+
+<div class="row small-up-2 large-up-4">
+    <div class="column">
+        <a href="/popart">
+            <img class="thumbnail product-img" src="/image/products/popart.jpg">
+        </a>
+        <h5>Фото-картина ПОП АРТ на холсте</h5>
+        <p>от 2850 руб</p>
+        <a href="/popart" class="button expanded">Выбрать</a>
+    </div>
+    {{--<div class="column">--}}
+        {{--<a href="/holst">--}}
+            {{--<img class="thumbnail product-img" src="/image/products/kollage.jpg">--}}
+        {{--</a>--}}
+        {{--<h5>Фото-Коллаж</h5>--}}
+        {{--<p>от 1500 руб</p>--}}
+        {{--<a href="#" class="button expanded">Выбрать</a>--}}
+    {{--</div>--}}
+    {{--<div class="column">--}}
+        {{--<a href="/holst">--}}
+            {{--<img class="thumbnail product-img" src="/image/products/cards.jpg">--}}
+        {{--</a>--}}
+        {{--<h5>Визитки</h5>--}}
+        {{--<p>от 450 руб</p>--}}
+        {{--<a href="#" class="button expanded">Выбрать</a>--}}
+    {{--</div>--}}
+    {{--<div class="column">--}}
+        {{--<a href="/holst">--}}
+            {{--<img class="thumbnail product-img" src="/image/products/stickers.jpg">--}}
+        {{--</a>--}}
+        {{--<h5>Наклейки</h5>--}}
+        {{--<p>от 800 руб</p>--}}
+        {{--<a href="#" class="button expanded">Выбрать</a>--}}
+    {{--</div>--}}
+</div>
 
 {{--<div class="row small-up-2 large-up-4">--}}
     {{--<div class="column">--}}
