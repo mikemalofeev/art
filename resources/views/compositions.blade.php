@@ -57,20 +57,20 @@
         <a href="/products/composition2" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/products/composition2">
-            <img class="thumbnail product-img" src="/image/products/composition.jpg">
+        <a href="/products/composition3">
+            <img class="thumbnail product-img" src="/image/composition/3.jpg">
         </a>
-        <h5>Композиции из нескольких фото-картин на холсте</h5>
+        <h5>Набор из 4х фото-картин <br>&nbsp;</h5>
         <p>3200 руб</p>
-        <a href="/products/composition2" class="button expanded">Выбрать</a>
+        <a href="/products/composition3" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/composition2">
-            <img class="thumbnail product-img" src="/image/products/composition.jpg">
+        <a href="/products/composition4">
+            <img class="thumbnail product-img" src="/image/composition/4.jpg">
         </a>
-        <h5>Композиции из нескольких фото-картин на холсте</h5>
-        <p>3200 руб</p>
-        <a href="/products/composition2" class="button expanded">Выбрать</a>
+        <h5>Композиция из 3х фото-картин на холсте</h5>
+        <p>8750 руб</p>
+        <a href="/products/composition4" class="button expanded">Выбрать</a>
     </div>
 
 </div>
@@ -79,12 +79,12 @@
 
 <div class="row small-up-2 large-up-4">
     <div class="column">
-        <a href="/composition2">
-            <img class="thumbnail product-img" src="/image/products/composition.jpg">
+        <a href="/products/composition5">
+            <img class="thumbnail product-img" src="/image/composition/5.jpg">
         </a>
-        <h5>Композиции из нескольких фото-картин на холсте</h5>
-        <p>3200 руб</p>
-        <a href="/composition2" class="button expanded">Выбрать</a>
+        <h5>Панно из 4х фото-картин на холсте</h5>
+        <p>5713 руб</p>
+        <a href="/products/composition5" class="button expanded">Выбрать</a>
     </div>
 
 </div>

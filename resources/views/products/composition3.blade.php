@@ -1,6 +1,6 @@
 @php
-    $name = 'Композиция из 4х фото-картин на холсте';
-    $folder = '/image/composition/1';
+    $name = 'Набор из 4х фото-картин';
+    $folder = '/image/composition/3';
 @endphp
 
 
@@ -37,18 +37,18 @@
         </div>
         {{--<img id="main-product-image" class="thumbnail" src="https://placehold.it/650x350">--}}
         <div class="row small-up-4">
-            <div class="column product-thumbs" style="margin-left: 225px;">
+            <div class="column product-thumbs">
                 <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}.jpg" data-image="{{$folder}}.jpg">
             </div>
-            {{--<div class="column product-thumbs">--}}
-                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/2.jpg" data-image="{{$folder}}/2.jpg">--}}
-            {{--</div>--}}
-            {{--<div class="column product-thumbs">--}}
-                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">--}}
-            {{--</div>--}}
-            {{--<div class="column product-thumbs">--}}
-                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}4.jpg" data-image="{{$folder}}4.jpg">--}}
-            {{--</div>--}}
+            <div class="column product-thumbs">
+                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}2.jpg" data-image="{{$folder}}2.jpg">
+            </div>
+            <div class="column product-thumbs">
+                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}3.jpg" data-image="{{$folder}}3.jpg">
+            </div>
+            <div class="column product-thumbs">
+                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}4.jpg" data-image="{{$folder}}4.jpg">
+            </div>
             {{--<div class="column">--}}
                 {{--<img class="thumbnail sim-thumb" src="https://placehold.it/250x200">--}}
             {{--</div>--}}
@@ -72,7 +72,7 @@
         {{--</p>--}}
         <label>Размер
             <select id="size" name="size">
-                <option value="35х45 - 2 шт, 25х35 - 2 шт" data-price="4250">35х45 - 2 шт, 25х35 - 2 шт</option>
+                <option value="20х20 - 4 шт" data-price="3200">20х20 - 4 шт</option>
             </select>
         </label>
 
@@ -113,10 +113,11 @@
         <div class="tabs-panel is-active" id="panel1">
             {{--<h4>Описание</h4>--}}
             <p>
-                Эта композиция состоит из 4-х фото-картин.<br />
-                Размеры:<br />
-                35 х 45 - 2 шт<br />
-                25 х 35 - 2 шт<br />
+                Размер каждого холстика 20х20 см<br />
+                Количество: 4 штуки.<br />
+                Каждое из этих изделий имеет завершенный вид, останется только повесить на стену.<br />
+                Галерейная натяжка холстов на подрамники.<br />
+                Все работы покрыты защитно-декоративным лаком.<br />
             </p>
         </div>
     </div>
