@@ -166,7 +166,7 @@
             <img class="thumbnail product-img" src="/image/products/cups.jpg">
         </a>
         <h5>Кружки <br /> &nbsp;</h5>
-        <p>от 500 руб</p>
+        <p>от 550 руб</p>
         <a href="#" class="button expanded">Выбрать</a>
     </div>
     <div class="column">

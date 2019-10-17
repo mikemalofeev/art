@@ -1,6 +1,6 @@
 @php
-    $name = "Фото-картина ПОП АРТ на холсте";
-    $folder = '/image/popart';
+    $name = 'Родословное древо на холсте';
+    $folder = '/image/tree';
 @endphp
 
 
@@ -13,7 +13,7 @@
 
 @include('header')
 
-<br>
+<br />
 
 <div class="row columns">
     <nav aria-label="You are here:" role="navigation">
@@ -37,15 +37,15 @@
         </div>
         {{--<img id="main-product-image" class="thumbnail" src="https://placehold.it/650x350">--}}
         <div class="row small-up-4">
-            <div class="column product-thumbs" style="margin-left: 75px;">
+            <div class="column product-thumbs" style="margin-left: 225px;">
                 <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/1.jpg" data-image="{{$folder}}/1.jpg">
             </div>
-            <div class="column product-thumbs">
-                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/2.jpg" data-image="{{$folder}}/2.jpg">
-            </div>
-            <div class="column product-thumbs">
-                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">
-            </div>
+            {{--<div class="column product-thumbs">--}}
+                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/2.jpg" data-image="{{$folder}}/2.jpg">--}}
+            {{--</div>--}}
+            {{--<div class="column product-thumbs">--}}
+                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">--}}
+            {{--</div>--}}
             {{--<div class="column product-thumbs">--}}
                 {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}4.jpg" data-image="{{$folder}}4.jpg">--}}
             {{--</div>--}}
@@ -60,7 +60,7 @@
         {{--<p>Что входит в цену:</p>--}}
         {{--<p>--}}
             {{--<ol class="menu vertical">--}}
-                {{--<li>- отрисовка портрета в стиле поп-арт</li>--}}
+                {{--<li>- подготовка дизайн-макета</li>--}}
                 {{--<li>- печать на холсте из хлопка</li>--}}
                 {{--<li>- покрытие изделия защитно-декоративным лаком</li>--}}
                 {{--<li>- изготовление деревянного подрамника из сосны</li>--}}
@@ -70,11 +70,9 @@
         {{--<p>--}}
             {{--*При оформлении заказа больше 4000 руб - мы дарим Вам накопительную бонусную карту -5%. Скидка начисляется сразу.--}}
         {{--</p>--}}
-        <label>Выберите размер
+        <label>Размер
             <select id="size" name="size">
-                <option value="30x40 см" data-price="2850">30x40 см</option>
-                <option value="40x40 см" data-price="3550">40x40 см</option>
-                <option value="40x60 см" data-price="3850">40x60 см</option>
+                <option value="50x90 см" data-price="6548">50x90 см</option>
             </select>
         </label>
 
@@ -116,7 +114,7 @@
             {{--<h4>Описание</h4>--}}
             <p>
             <ol class="menu vertical">
-                <li>- отрисовка портрета в стиле поп-арт</li>
+                <li>- подготовка дизайн-макета</li>
                 <li>- печать на холсте из хлопка</li>
                 <li>- покрытие изделия защитно-декоративным лаком</li>
                 <li>- изготовление деревянного подрамника из сосны</li>

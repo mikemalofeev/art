@@ -1,6 +1,6 @@
 @php
-    $name = "Фото-картина ПОП АРТ на холсте";
-    $folder = '/image/popart';
+    $name = "Фото-кружка";
+    $folder = '/image/cups';
 @endphp
 
 
@@ -37,15 +37,15 @@
         </div>
         {{--<img id="main-product-image" class="thumbnail" src="https://placehold.it/650x350">--}}
         <div class="row small-up-4">
-            <div class="column product-thumbs" style="margin-left: 75px;">
+            <div class="column product-thumbs" style="margin-left: 150px;">
                 <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/1.jpg" data-image="{{$folder}}/1.jpg">
             </div>
             <div class="column product-thumbs">
                 <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/2.jpg" data-image="{{$folder}}/2.jpg">
             </div>
-            <div class="column product-thumbs">
-                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">
-            </div>
+            {{--<div class="column product-thumbs">--}}
+                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">--}}
+            {{--</div>--}}
             {{--<div class="column product-thumbs">--}}
                 {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}4.jpg" data-image="{{$folder}}4.jpg">--}}
             {{--</div>--}}
@@ -70,11 +70,12 @@
         {{--<p>--}}
             {{--*При оформлении заказа больше 4000 руб - мы дарим Вам накопительную бонусную карту -5%. Скидка начисляется сразу.--}}
         {{--</p>--}}
-        <label>Выберите размер
+        <label>Выберите вариант
             <select id="size" name="size">
-                <option value="30x40 см" data-price="2850">30x40 см</option>
-                <option value="40x40 см" data-price="3550">40x40 см</option>
-                <option value="40x60 см" data-price="3850">40x60 см</option>
+                <option value="Фото-кружка" data-price="550">Фото-кружка</option>
+                <option value="Фото-кружка + дизайн" data-price="750">Фото-кружка + дизайн</option>
+                <option value="Фото-кружка с цветной ручкой" data-price="650">Фото-кружка с цветной ручкой</option>
+                <option value="Фото-кружка с цветной ручкой + дизайн" data-price="850">Фото-кружка с цветной ручкой + дизайн</option>
             </select>
         </label>
 
@@ -115,16 +116,10 @@
         <div class="tabs-panel is-active" id="panel1">
             {{--<h4>Описание</h4>--}}
             <p>
-            <ol class="menu vertical">
-                <li>- отрисовка портрета в стиле поп-арт</li>
-                <li>- печать на холсте из хлопка</li>
-                <li>- покрытие изделия защитно-декоративным лаком</li>
-                <li>- изготовление деревянного подрамника из сосны</li>
-                <li>- галерейная натяжка холста на подрамник</li>
-            </ol>
+                Стоимость печати фото-кружки (без составления коллажа) - 550 руб.
             </p>
             <p>
-                *При оформлении заказа больше 4000 руб - мы дарим Вам накопительную бонусную карту -5%. Скидка начисляется сразу.
+                Дизайн оплачивается отдельно (прибавляем) + 200 руб.
             </p>
         </div>
     </div>
