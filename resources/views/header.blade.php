@@ -18,13 +18,14 @@
                 <li><a href="/advertising">Рекламная полиграфия</a></li>
             </ul>
         </div>
-        {{--<div class="top-bar-right">--}}
-        {{--<ul class="menu">--}}
+        <div class="top-bar-right">
+        <ul class="menu">
+            <li><a href="/contacts">Контакты</a></li>
         {{--<li><input type="search" placeholder="Search"></li>--}}
         {{--<li>--}}
         {{--<button type="button" class="button">Search</button>--}}
         {{--</li>--}}
-        {{--</ul>--}}
-        {{--</div>--}}
+        </ul>
+        </div>
     </div>
 </div>
