@@ -68,15 +68,15 @@
 
 <div class="row small-up-2 large-up-4">
     <div class="column">
-        <a href="/holst">
+        <a href="/products/holst">
             <img class="thumbnail product-img" src="/image/products/holst.jpg">
         </a>
         <h5>Фото на холсте <br /> &nbsp;</h5>
         <p>от 870 руб</p>
-        <a href="/holst" class="button expanded">Выбрать</a>
+        <a href="/products/holst" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/kollage">
+        <a href="/products/kollage">
             <img class="thumbnail product-img" src="/image/products/kollage.jpg">
         </a>
         <h5>Фото-коллаж на холсте <br /> &nbsp;</h5>
@@ -84,20 +84,20 @@
         <a href="#" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/popart">
+        <a href="/products/popart">
             <img class="thumbnail product-img" src="/image/products/popart.jpg">
         </a>
         <h5>Фото-картина ПОП АРТ на холсте</h5>
         <p>от 2850 руб</p>
-        <a href="/popart" class="button expanded">Выбрать</a>
+        <a href="/products/popart" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/love">
+        <a href="/products/love">
             <img class="thumbnail product-img" src="/image/products/love.jpg">
         </a>
         <h5>Фото-картина "Love is" на холсте</h5>
         <p>от 870 руб</p>
-        <a href="/love" class="button expanded">Выбрать</a>
+        <a href="/products/love" class="button expanded">Выбрать</a>
     </div>
 </div>
 
@@ -105,36 +105,36 @@
 
 <div class="row small-up-2 large-up-4">
     <div class="column">
-        <a href="/tree">
+        <a href="/products/tree">
             <img class="thumbnail product-img" src="/image/products/tree.jpg">
         </a>
         <h5>Родословное дерево 50х90 см на холсте</h5>
         <p>6548 руб</p>
-        <a href="#" class="button expanded">Выбрать</a>
+        <a href="/products/tree" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/composition1">
+        <a href="/compositions">
             <img class="thumbnail product-img" src="/image/products/composition.jpg">
         </a>
         <h5>Композиции из нескольких фото-картин на холсте</h5>
         <p>от 3200 руб</p>
-        <a href="/composition1" class="button expanded">Выбрать</a>
+        <a href="/compositions" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/puzzle">
+        <a href="/products/puzzle">
             <img class="thumbnail product-img" src="/image/products/puzzle.jpg">
         </a>
         <h5>Фото-пазл <br /> &nbsp;</h5>
         <p>от 1200 руб</p>
-        <a href="#" class="button expanded">Выбрать</a>
+        <a href="/products/puzzle" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/magnets">
+        <a href="/products/magnets">
             <img class="thumbnail product-img" src="/image/products/magnets.jpg">
         </a>
         <h5>Фото-магнитики <br /> &nbsp;</h5>
         <p>от 100 руб</p>
-        <a href="#" class="button expanded">Выбрать</a>
+        <a href="/products/magnets" class="button expanded">Выбрать</a>
     </div>
 
 </div>
@@ -143,36 +143,36 @@
 
 <div class="row small-up-2 large-up-4">
     <div class="column">
-        <a href="/cards">
+        <a href="/products/cards">
             <img class="thumbnail product-img" src="/image/products/cards.jpg">
         </a>
         <h5>Визитки <br /> &nbsp;</h5>
         <p>от 650 руб</p>
-        <a href="#" class="button expanded">Выбрать</a>
+        <a href="/products/cards" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/stickers">
+        <a href="/products/stickers">
             <img class="thumbnail product-img" src="/image/products/stickers.jpg">
         </a>
         <h5>Наклейки <br /> &nbsp;</h5>
         <p>от 800 руб</p>
-        <a href="#" class="button expanded">Выбрать</a>
+        <a href="/products/stickers" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/cups">
+        <a href="/products/cups">
             <img class="thumbnail product-img" src="/image/products/cups.jpg">
         </a>
         <h5>Кружки <br /> &nbsp;</h5>
         <p>от 550 руб</p>
-        <a href="#" class="button expanded">Выбрать</a>
+        <a href="/products/cups" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/packets">
+        <a href="/products/packets">
             <img class="thumbnail product-img" src="/image/products/packets.jpg">
         </a>
         <h5>Пакеты <br /> &nbsp;</h5>
         <p>от 3000 руб</p>
-        <a href="#" class="button expanded">Выбрать</a>
+        <a href="/products/packets" class="button expanded">Выбрать</a>
     </div>
 </div>
 

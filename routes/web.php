@@ -17,11 +17,15 @@ Route::get('/', function () {
 });
 
 Route::get('/{action}', function ($action) {
-    return view('products.' . $action);
+    return view($action);
 });
 
-Route::get('/holst', function () {
-    return view('holst');
+Route::get('/{sub}/{action}', function ($sub, $action) {
+    return view($sub . '.' . $action);
+});
+
+Route::get('/compositions', function () {
+    return view('compositions');
 });
 
 Route::get('/contacts', function () {
