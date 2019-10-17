@@ -13,15 +13,11 @@
 
 
 Route::get('/', function () {
-    return view('ecommerce');
+    return view('main');
 });
 
 Route::get('/{action}', function ($action) {
-    return view($action);
-});
-
-Route::get('/product', function () {
-    return view('product');
+    return view('products.' . $action);
 });
 
 Route::get('/holst', function () {
