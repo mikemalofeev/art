@@ -1,6 +1,6 @@
 @php
-    $name = 'Родословное древо на холсте';
-    $folder = '/image/tree';
+    $name = 'Наклейки';
+    $folder = '/image/stickers';
 @endphp
 
 
@@ -13,7 +13,7 @@
 
 @include('header')
 
-<br />
+<br>
 
 <div class="row columns">
     <nav aria-label="You are here:" role="navigation">
@@ -60,7 +60,7 @@
         {{--<p>Что входит в цену:</p>--}}
         {{--<p>--}}
             {{--<ol class="menu vertical">--}}
-                {{--<li>- подготовка дизайн-макета</li>--}}
+                {{--<li>- подготовка дизайн-макета с добавлением Ваших надписей</li>--}}
                 {{--<li>- печать на холсте из хлопка</li>--}}
                 {{--<li>- покрытие изделия защитно-декоративным лаком</li>--}}
                 {{--<li>- изготовление деревянного подрамника из сосны</li>--}}
@@ -70,18 +70,20 @@
         {{--<p>--}}
             {{--*При оформлении заказа больше 4000 руб - мы дарим Вам накопительную бонусную карту -5%. Скидка начисляется сразу.--}}
         {{--</p>--}}
-        <label>Размер
-            <select id="size" name="size">
-                <option value="50x90 см" data-price="6548">50x90 см</option>
-            </select>
-        </label>
+
+        {{--<label>Выберите количество:--}}
+            {{--<select id="size" name="size">--}}
+                {{--<option value="100 шт." data-price="650">100 шт.</option>--}}
+                {{--<option value="1000 шт." data-price="1000">1000 шт.</option>--}}
+            {{--</select>--}}
+        {{--</label>--}}
 
         <input type="hidden" id="description" name="description" value="{{$name}}">
         <input type="hidden" id="price" name="price" value="0">
 
         <ul class="pricing-table">
             {{--<li class="title">Цена</li>--}}
-            <li class="price">0 Руб.</li>
+            {{--<li class="price">0 Руб.</li>--}}
             {{--<li class="description">Размер</li>--}}
             {{--<li>30x40 см</li>--}}
             {{--<li>7GB of Power</li>--}}
@@ -113,16 +115,7 @@
         <div class="tabs-panel is-active" id="panel1">
             {{--<h4>Описание</h4>--}}
             <p>
-            <ol class="menu vertical">
-                <li>- подготовка дизайн-макета</li>
-                <li>- печать на холсте из хлопка</li>
-                <li>- покрытие изделия защитно-декоративным лаком</li>
-                <li>- изготовление деревянного подрамника из сосны</li>
-                <li>- галерейная натяжка холста на подрамник</li>
-            </ol>
-            </p>
-            <p>
-                *При оформлении заказа больше 4000 руб - мы дарим Вам накопительную бонусную карту -5%. Скидка начисляется сразу.
+                Информацию уточняйте у консультанта
             </p>
         </div>
     </div>

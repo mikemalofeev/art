@@ -113,12 +113,12 @@
         <a href="#" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/composition">
+        <a href="/composition1">
             <img class="thumbnail product-img" src="/image/products/composition.jpg">
         </a>
         <h5>Композиции из нескольких фото-картин на холсте</h5>
         <p>от 3200 руб</p>
-        <a href="/composition" class="button expanded">Выбрать</a>
+        <a href="/composition1" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
         <a href="/puzzle">
