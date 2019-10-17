@@ -106,12 +106,12 @@
     <hr>
     <ul class="tabs" data-tabs id="example-tabs">
         <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Описание</a></li>
-        <li class="tabs-title"><a href="#panel2">Similar Products</a></li>
+        {{--<li class="tabs-title"><a href="#panel2">Similar Products</a></li>--}}
     </ul>
 
     <div class="tabs-content" data-tabs-content="example-tabs">
         <div class="tabs-panel is-active" id="panel1">
-            <h4>Описание</h4>
+            {{--<h4>Описание</h4>--}}
             <p>
             <ol class="menu vertical">
                 <li>- подготовка дизайн-макета</li>
