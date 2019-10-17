@@ -12,9 +12,10 @@
                 {{--</ul>--}}
                 {{--</li>--}}
 
-                {{--<li><a href="/holst">Фотохолсты</a></li>--}}
-                {{--<li><a href="#">Полиграфия</a></li>--}}
-                {{--<li><a href="#">Фотосувениры</a></li>--}}
+                <li><a href="/holsts">Фотохолсты</a></li>
+                <li><a href="/compositions">Композиции</a></li>
+                <li><a href="/souvenirs">Фотосувениры</a></li>
+                <li><a href="/advertising">Рекламная полиграфия</a></li>
             </ul>
         </div>
         {{--<div class="top-bar-right">--}}
