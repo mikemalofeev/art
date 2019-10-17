@@ -22,7 +22,7 @@
                 <li><a href="/payment">Оплата</a></li>
                 <li><a href="/shipment">Доставка</a></li>
                 <li><a href="/contacts">Контакты</a></li>
-                <li><a href="/">Услуги</a></li>
+                {{--<li><a href="/">Услуги</a></li>--}}
 
                 {{--<li><a href="/order">Заказать</a></li>--}}
             </ul>

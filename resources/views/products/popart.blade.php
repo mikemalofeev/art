@@ -19,7 +19,7 @@
     <nav aria-label="You are here:" role="navigation">
         <ul class="breadcrumbs">
             <li><a href="/">Главная</a></li>
-            {{--<li><a href="#">Фотохолсты</a></li>--}}
+            <li><a href="/holsts">Фотохолсты</a></li>
             {{--<li class="disabled">Gene Splicing</li>--}}
             {{--<li>--}}
                 {{--<span class="show-for-sr">Current: </span> Cloning--}}
