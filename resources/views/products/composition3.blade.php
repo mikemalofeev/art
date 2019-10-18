@@ -72,7 +72,7 @@
         {{--</p>--}}
         <label>Размер
             <select id="size" name="size">
-                <option value="20х20 - 4 шт" data-price="3200">20х20 - 4 шт</option>
+                <option value="20х20 см - 4 шт" data-price="3200">20х20 см - 4 шт</option>
             </select>
         </label>
 
