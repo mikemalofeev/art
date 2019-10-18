@@ -32,7 +32,7 @@
 				<table bgcolor="#999999">
 					<tr>
 						{{--<td><img src="http://placehold.it/200x50/" /></td>--}}
-                        <td align="left"><h6 class="collapse">Полиграф</h6></td>
+                        <td align="left"><h6 class="collapse"><a href="{{$host}}">Полиграф</a></h6></td>
 
                         {{--<td align="right"><h6 class="collapse">Basic</h6></td>--}}
 					</tr>
