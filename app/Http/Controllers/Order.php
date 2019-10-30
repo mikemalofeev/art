@@ -42,13 +42,13 @@ class Order extends BaseController
         Mail::send('email', $data, function(Message $message) use ($request)
         {
             $message->setSubject('Заказ в типографии Полиграф');
-            $message->from('artprestige2012@ya.ru', 'Типография Полиграф');
-            $message->addBcc('artprestige2012@ya.ru');
+            $message->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
             $message->to($request->get('email'));
+            $message->addBcc('artprestige2012@ya.ru');
         });
 
         //@TODO сделать редирект
-
+        //сохранять данные по заказу
         return view('order', $data);
     }
 }
