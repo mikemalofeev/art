@@ -71,7 +71,7 @@
 
                         <!-- Callout Panel -->
 						<p class="callout">
-                            Для начала выполнения заказа необходимо произвести оплату. <a href="{{$host}}/payment">Оплатить &raquo;</a>
+                            Для начала выполнения заказа необходимо произвести оплату. <a href="https://money.yandex.ru/to/410012566285571">Оплатить &raquo;</a>
 						</p><!-- /Callout Panel -->
 
 						<!-- social & contact -->
