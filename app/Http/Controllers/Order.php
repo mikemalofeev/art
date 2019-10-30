@@ -22,12 +22,12 @@ class Order extends BaseController
             'price' => $request->get('price', ''),
             'is_submited' => false,
         ];
+
         return view('order', $data);
     }
 
     public function orderSubmitAction(Request $request)
     {
-
         $data = [
             'order' => $request->get('order', '-'),
             'price' => $request->get('price', '-'),
@@ -49,6 +49,15 @@ class Order extends BaseController
 
         //@TODO сделать редирект
         //сохранять данные по заказу
+        return redirect('order-applied');
+    }
+
+    public function orderAppliedAction(Request $request)
+    {
+        $data = [
+            'is_submited' => true,
+        ];
+
         return view('order', $data);
     }
 }

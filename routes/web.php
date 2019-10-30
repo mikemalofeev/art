@@ -11,10 +11,23 @@
 |
 */
 
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('main');
 });
+
+Route::get('/order', [
+    'as'   => 'order',
+    'uses' => 'Order@orderAction',
+]);
+
+Route::get('/order-applied', [
+    'as'   => 'order-applied',
+    'uses' => 'Order@orderAppliedAction',
+]);
+
+Route::post('/submit', 'Order@orderSubmitAction');
 
 Route::get('/{action}', function ($action) {
     return view($action);
@@ -43,9 +56,3 @@ Route::get('/shipment', function () {
 //Route::get('/email', function () {
 //    return view('email');
 //});
-
-Route::get('/order', 'Order@orderAction');
-Route::post('/order', 'Order@orderAction');
-
-Route::get('/submit', 'Order@orderSubmitAction');
-Route::post('/submit', 'Order@orderSubmitAction');
