@@ -43,9 +43,11 @@ class Order extends BaseController
         {
             $message->setSubject('Заказ в типографии Полиграф');
             $message->from('artprestige2012@ya.ru', 'Типография Полиграф');
-
+            $message->addBcc('artprestige2012@ya.ru');
             $message->to($request->get('email'));
         });
+
+        //@TODO сделать редирект
 
         return view('order', $data);
     }
