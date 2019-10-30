@@ -17,10 +17,9 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::get('/order', [
-    'as'   => 'order',
-    'uses' => 'Order@orderAction',
-]);
+Route::get('/order', 'Order@orderAction');
+Route::post('/order', 'Order@orderAction');
+
 
 Route::get('/order-applied', [
     'as'   => 'order-applied',
