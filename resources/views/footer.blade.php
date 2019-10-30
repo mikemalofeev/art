@@ -19,7 +19,7 @@
                 {{--<li><a href="/about">О нас</a></li>--}}
                 <li><a href="/">Главная</a></li>
 
-                <li><a href="/payment">Оплата</a></li>
+                <li><a href="https://money.yandex.ru/to/410012566285571">Оплата</a></li>
                 <li><a href="/shipment">Доставка</a></li>
                 <li><a href="/contacts">Контакты</a></li>
                 {{--<li><a href="/">Услуги</a></li>--}}
