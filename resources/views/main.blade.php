@@ -60,7 +60,7 @@
         </a>
         <h5>Фото-коллаж на холсте <br /> &nbsp;</h5>
         <p>от 1646 руб</p>
-        <a href="#" class="button expanded">Выбрать</a>
+        <a href="/products/kollage" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
         <a href="/products/popart">
