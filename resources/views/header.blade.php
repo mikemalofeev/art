@@ -36,7 +36,7 @@
     {{--<div class="row column" style="margin: 0 auto;text-align: center;color: #0f55a0;width: 1100px;">--}}
 
     <div class="top-bar-left">
-        <ul class="dropdown menu" data-dropdown-menu style="">
+        <ul class="dropdown menu" data-dropdown-menu>
             {{--<li><a href="tel:+79780068956">Позвоните нам + 7 (978) 006-89-56</a></li>--}}
             {{--<li class="menu-text"><a href="/">ПОЛИГРАФ</a></li>--}}
             {{--<li class="has-submenu">--}}
@@ -92,7 +92,10 @@
 
 <div class="top-bar row" id="main-menu" >
     <ul class="menu vertical medium-horizontal expanded medium-text-center dropdown" data-responsive-menu="drilldown medium-dropdown" role="menubar" data-dropdownmenu="g2h9vl-dropdownmenu" data-responsivemenu="lzwxwa-responsivemenu">
-        <li class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right" role="menuitem" tabindex="0" title="Tech" aria-haspopup="true"><a href="/" tabindex="-1" class="a-grey">ПЕЧАТЬ ФОТО</a>
+        <li
+            {{--class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right"--}}
+            class="has-submenu is-right-arrow"
+            role="menuitem" tabindex="0" title="Tech" aria-haspopup="true"><a href="/" tabindex="-1" class="a-grey">ПЕЧАТЬ ФОТО</a>
             {{--<ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" tabindex="-1" role="menu" style="">--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">One</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Two</a></li>--}}
