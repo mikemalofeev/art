@@ -32,8 +32,8 @@
     </div>
 </div>
 
-<div class="row column">
-    <div class="row column" style="margin: 0 auto;text-align: center;color: #0f55a0;width: 1110px;">
+<div class="row column" style="text-align: center;">
+    {{--<div class="row column" style="margin: 0 auto;text-align: center;color: #0f55a0;width: 1100px;">--}}
 
     <div class="top-bar-left">
         <ul class="dropdown menu" data-dropdown-menu style="">
@@ -42,10 +42,10 @@
             {{--<li class="has-submenu">--}}
             {{--<a href="#">One</a>--}}
             {{--<ul class="submenu menu vertical" data-submenu>--}}
-            <li style="height: 164px;width: 220px;font-weight: 600;font-size: 12pt;">
+            <li style="height: 128px;width: 234px;font-weight: 600;font-size: 12pt;">
                 <a href="/" class="a-blue">Главная</a>
             </li>
-            <li style="height: 164px;width: 220px;font-weight: 600;font-size: 12pt;">
+            <li style="height: 128px;width: 234px;font-weight: 600;font-size: 12pt;">
                 <a href="https://money.yandex.ru/to/410012566285571" class="a-blue">Оплата</a>
             </li>
             {{--<li><a href="#">Three</a></li>--}}
@@ -60,7 +60,7 @@
     </div>
 
     <div class="top-bar-left"
-         style="height: 164px;width: 200px;text-align: center;padding: 10px 0px;color: #1585cf;">
+         style="height: 128px;width: 234px;text-align: center;padding: 10px 0px;color: #1585cf;">
         {{--<div style="font-size: 16pt;">фотосервис</div>--}}
         {{--<div><a href="/" style="font-size: 24pt;">fotosalon24.ru</a></div>--}}
         {{--<div style="font-size: 14pt;">удобная печать с доставкой</div>--}}
@@ -74,8 +74,8 @@
             {{--<li class="has-submenu">--}}
             {{--<a href="#">One</a>--}}
             {{--<ul class="submenu menu vertical" data-submenu>--}}
-            <li style="height: 164px;width: 220px;font-weight: 600;font-size: 12pt;"><a href="/shipment" class="a-blue">Доставка</a></li>
-            <li style="height: 164px;width: 220px;font-weight: 600;font-size: 12pt;"><a href="/contacts" class="a-blue">Контакты</a></li>
+            <li style="height: 128px;width: 234px;font-weight: 600;font-size: 12pt;"><a href="/shipment" class="a-blue">Доставка</a></li>
+            <li style="height: 128px;width: 234px;font-weight: 600;font-size: 12pt;"><a href="/contacts" class="a-blue">Контакты</a></li>
             {{--<li><a href="#">Three</a></li>--}}
             {{--</ul>--}}
             {{--</li>--}}
@@ -86,7 +86,7 @@
             {{--<li><a href="/advertising">Рекламная полиграфия</a></li>--}}
         </ul>
     </div>
-    </div>
+    {{--</div>--}}
 
 </div>
 

@@ -12,6 +12,7 @@
 
 {{--<br>--}}
 
+<div class="row">
 <div class="orbit" role="region" aria-label="Фото" data-orbit>
     <ul class="orbit-container">
         <button class="orbit-previous button-grey" aria-label="previous"><span class="show-for-sr">Предыдущий</span>&#9664;</button>
@@ -25,10 +26,11 @@
         <li class="orbit-slide">
             <a href="/holst"><img class="banner-img" src="/image/3.jpg"></a>
         </li>
-        <li class="orbit-slide">
-            <a href="/popart"><img class="banner-img" src="/image/4.jpg"></a>
-        </li>
+        {{--<li class="orbit-slide">--}}
+            {{--<a href="/popart"><img class="banner-img" src="/image/4.jpg"></a>--}}
+        {{--</li>--}}
     </ul>
+</div>
 </div>
 
 {{--<div class="row column text-center">--}}
@@ -38,9 +40,9 @@
 
 <br>
 
-<div class="row column">
+<div class="row">
     <div class="callout primary special-weeks">
-        <h3>Популярные товары</h3>
+        <h3>ПОПУЛЯРНЫЕ ТОВАРЫ</h3>
     </div>
 </div>
 {{--<hr>--}}
