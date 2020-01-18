@@ -40,11 +40,10 @@
 
 <br>
 
-<div class="row">
-    <div class="callout primary special-weeks">
-        <h3>ПОПУЛЯРНЫЕ ТОВАРЫ</h3>
-    </div>
+<div class="top-bar row a-grey" style="text-align: center">
+    <h5 style="margin-top: .5rem;">ПОПУЛЯРНЫЕ ТОВАРЫ</h5>
 </div>
+<br>
 {{--<hr>--}}
 
 <div class="row small-up-2 large-up-4">

@@ -37,15 +37,15 @@
         </div>
         {{--<img id="main-product-image" class="thumbnail" src="https://placehold.it/650x350">--}}
         <div class="row small-up-4">
-            <div class="column product-thumbs" style="margin-left: 75px;">
+            <div class="column product-thumbs" style="margin-left: 150px;">
                 <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/1.jpg" data-image="{{$folder}}/1.jpg">
             </div>
             <div class="column product-thumbs">
                 <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/2.jpg" data-image="{{$folder}}/2.jpg">
             </div>
-            <div class="column product-thumbs">
-                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">
-            </div>
+            {{--<div class="column product-thumbs">--}}
+                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">--}}
+            {{--</div>--}}
             {{--<div class="column product-thumbs">--}}
                 {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}4.jpg" data-image="{{$folder}}4.jpg">--}}
             {{--</div>--}}
