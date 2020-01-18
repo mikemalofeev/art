@@ -15,13 +15,10 @@
 
 @include('header')
 
-<br>
-
-<div class="row column">
-    <div class="callout primary special-weeks">
-        <h3>{{$name}}</h3>
-    </div>
+<div class="top-bar row a-grey" style="text-align: center;text-transform: uppercase;">
+    <h5 style="margin-top: .5rem;">{{$name}}</h5>
 </div>
+<br>
 
 <div class="row small-up-2 large-up-4">
     <div class="column">

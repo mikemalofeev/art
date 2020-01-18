@@ -18,13 +18,13 @@
         <button class="orbit-previous button-grey" aria-label="previous"><span class="show-for-sr">Предыдущий</span>&#9664;</button>
         <button class="orbit-next button-grey" aria-label="next"><span class="show-for-sr">Следующий</span>&#9654;</button>
         <li class="orbit-slide is-active">
-            <a href="/holst"><img class="banner-img" src="/image/1.jpg"></a>
+            <a href="/holsts"><img class="banner-img" src="/image/1.jpg"></a>
         </li>
         <li class="orbit-slide">
-            <a href="/holst"><img class="banner-img" src="/image/2.jpg"></a>
+            <a href="#"><img class="banner-img" src="/image/2.jpg"></a>
         </li>
         <li class="orbit-slide">
-            <a href="/holst"><img class="banner-img" src="/image/3.jpg"></a>
+            <a href="/products/cards"><img class="banner-img" src="/image/3.jpg"></a>
         </li>
         {{--<li class="orbit-slide">--}}
             {{--<a href="/popart"><img class="banner-img" src="/image/4.jpg"></a>--}}
@@ -40,7 +40,7 @@
 
 <br>
 
-<div class="top-bar row a-grey" style="text-align: center">
+<div class="top-bar row a-grey" style="text-align: center;text-transform: uppercase;">
     <h5 style="margin-top: .5rem;">ПОПУЛЯРНЫЕ ТОВАРЫ</h5>
 </div>
 <br>
