@@ -18,7 +18,7 @@
         Для получения дополнительной информации можете связаться с нами:<br />
         <ul class="" style="list-style-type: none;">
             <li>✓ телефон <a href="tel:+79780068956">+ 7 (978) 006-89-56</a> доступны в Viber, WhatsApp</li>
-            <li>✓ email <a href="mailto:artprestige2012@ya.ru">artprestige2012@ya.ru</a></li>
+            <li>✓ email <a href="mailto:info@fotosalon24.ru">info@fotosalon24.ru</a></li>
             <li>✓ <a href="https://vk.com/fotosalon92">Вконтакте</a></li>
         </ul>
     </div>
