@@ -42,10 +42,10 @@
             {{--<li class="has-submenu">--}}
             {{--<a href="#">One</a>--}}
             {{--<ul class="submenu menu vertical" data-submenu>--}}
-            <li style="height: 128px;width: 234px;font-weight: 600;font-size: 12pt;">
+            <li style="height: 128px;width: 233px;font-weight: 600;font-size: 12pt;">
                 <a href="/" class="a-blue">Главная</a>
             </li>
-            <li style="height: 128px;width: 234px;font-weight: 600;font-size: 12pt;">
+            <li style="height: 128px;width: 233px;font-weight: 600;font-size: 12pt;">
                 <a href="https://money.yandex.ru/to/410012566285571" class="a-blue">Оплата</a>
             </li>
             {{--<li><a href="#">Three</a></li>--}}
@@ -74,8 +74,8 @@
             {{--<li class="has-submenu">--}}
             {{--<a href="#">One</a>--}}
             {{--<ul class="submenu menu vertical" data-submenu>--}}
-            <li style="height: 128px;width: 234px;font-weight: 600;font-size: 12pt;"><a href="/shipment" class="a-blue">Доставка</a></li>
-            <li style="height: 128px;width: 234px;font-weight: 600;font-size: 12pt;"><a href="/contacts" class="a-blue">Контакты</a></li>
+            <li style="height: 128px;width: 233px;font-weight: 600;font-size: 12pt;"><a href="/shipment" class="a-blue">Доставка</a></li>
+            <li style="height: 128px;width: 233px;font-weight: 600;font-size: 12pt;"><a href="/contacts" class="a-blue">Контакты</a></li>
             {{--<li><a href="#">Three</a></li>--}}
             {{--</ul>--}}
             {{--</li>--}}
