@@ -94,36 +94,51 @@
     <ul class="menu vertical medium-horizontal expanded medium-text-center dropdown" data-responsive-menu="drilldown medium-dropdown" role="menubar" data-dropdownmenu="g2h9vl-dropdownmenu" data-responsivemenu="lzwxwa-responsivemenu">
         <li
             {{--class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right"--}}
-            class="has-submenu is-right-arrow"
-            role="menuitem" tabindex="0" title="Tech" aria-haspopup="true"><a href="/" tabindex="-1" class="a-grey">ПЕЧАТЬ ФОТО</a>
+            class="is-right-arrow"
+            role="menuitem"
+            tabindex="0" title="Tech"
+            aria-haspopup="true"
+        ><a href="/" tabindex="-1" class="a-grey">ПЕЧАТЬ ФОТО</a>
             {{--<ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" tabindex="-1" role="menu" style="">--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">One</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Two</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Three</a></li>--}}
             {{--</ul>--}}
         </li>
-        <li class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right" role="menuitem" tabindex="0" title="Energy" aria-haspopup="true"><a href="/holsts" tabindex="-1" class="a-grey">ФОТОХОЛСТЫ</a>
+        <li
+            {{--class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right"--}}
+            class="is-right-arrow"
+            role="menuitem" tabindex="0" title="Energy" aria-haspopup="true"><a href="/holsts" tabindex="-1" class="a-grey">ФОТОХОЛСТЫ</a>
             {{--<ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" tabindex="-1" role="menu" style="">--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">One</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Two</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Three</a></li>--}}
             {{--</ul>--}}
         </li>
-        <li class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right" role="menuitem" tabindex="0" title="Space" aria-haspopup="true"><a href="/" tabindex="-1" class="a-grey">ФОТОКАЛЕНДАРИ</a>
+        <li
+            {{--class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right"--}}
+            class="is-right-arrow"
+            role="menuitem" tabindex="0" title="Space" aria-haspopup="true"><a href="/" tabindex="-1" class="a-grey">ФОТОКАЛЕНДАРИ</a>
             {{--<ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" tabindex="-1" role="menu" style="">--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">One</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Two</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Three</a></li>--}}
             {{--</ul>--}}
         </li>
-        <li class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right" role="menuitem" tabindex="0" title="Medicine" aria-haspopup="true"><a href="/souvenirs" tabindex="-1" class="a-grey">ФОТОСУВЕНИРЫ</a>
+        <li
+            {{--class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right"--}}
+            class="is-right-arrow"
+            role="menuitem" tabindex="0" title="Medicine" aria-haspopup="true"><a href="/souvenirs" tabindex="-1" class="a-grey">ФОТОСУВЕНИРЫ</a>
             {{--<ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" tabindex="-1" role="menu" style="">--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">One</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Two</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Three</a></li>--}}
             {{--</ul>--}}
         </li>
-        <li class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right" role="menuitem" tabindex="0" title="Robotics" aria-haspopup="true"><a href="/advertising" tabindex="-1" class="a-grey">ПОЛИГРАФИЯ</a>
+        <li
+            {{--class="has-submenu is-dropdown-submenu-parent is-right-arrow opens-right"--}}
+            class="is-right-arrow"
+            role="menuitem" tabindex="0" title="Robotics" aria-haspopup="true"><a href="/advertising" tabindex="-1" class="a-grey">ПОЛИГРАФИЯ</a>
             {{--<ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" tabindex="-1" role="menu" style="">--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">One</a></li>--}}
                 {{--<li role="menuitem" class="is-submenu-item is-dropdown-submenu-item" tabindex="0"><a href="#" tabindex="-1">Two</a></li>--}}

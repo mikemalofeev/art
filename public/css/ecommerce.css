@@ -668,3 +668,24 @@
     color: #0f55a0;
 }
 
+
+.dropdown.menu .is-right-arrow > a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 5px inset;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-left-style: inset;
+    border-color: transparent transparent transparent #2199e8;
+    border-left-style: solid;
+}
+
+.dropdown.menu  a::after {
+    float: right;
+    margin-top: 3px;
+    margin-left: 10px;
+}
