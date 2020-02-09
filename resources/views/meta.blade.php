@@ -5,5 +5,6 @@
 <meta name="keywords"
       content="Фотосалон24, печать на холсте, фото, печать фото, фото на холсте, печать на кружках, печать на футболках">
 <title>Фотосалон24 | Печать на холсте</title>
+<link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 <link rel="stylesheet" href="/css/ecommerce.css">
