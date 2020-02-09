@@ -84,14 +84,22 @@
 <hr>
 
 <div class="row small-up-2 large-up-4">
-    <div class="column">
-        <a href="/products/tree">
-            <img class="thumbnail product-img" src="/image/products/tree.jpg">
-        </a>
-        <h5>Родословное дерево 50х90 см на холсте</h5>
-        <p>6548 руб</p>
-        <a href="/products/tree" class="button expanded">Выбрать</a>
-    </div>
+    {{--<div class="column">--}}
+        {{--<a href="/products/tree">--}}
+            {{--<img class="thumbnail product-img" src="/image/products/tree.jpg">--}}
+        {{--</a>--}}
+        {{--<h5>Родословное дерево 50х90 см на холсте</h5>--}}
+        {{--<p>6548 руб</p>--}}
+        {{--<a href="/products/tree" class="button expanded">Выбрать</a>--}}
+    {{--</div>--}}
+    {{--<div class="column">--}}
+    {{--<a href="/products/magnets">--}}
+    {{--<img class="thumbnail product-img" src="/image/products/magnets.jpg">--}}
+    {{--</a>--}}
+    {{--<h5>Фото-магнитики <br /> &nbsp;</h5>--}}
+    {{--<p>от 100 руб</p>--}}
+    {{--<a href="/products/magnets" class="button expanded">Выбрать</a>--}}
+    {{--</div>--}}
     <div class="column">
         <a href="/compositions">
             <img class="thumbnail product-img" src="/image/products/composition.jpg">
@@ -109,20 +117,6 @@
         <a href="/products/puzzle" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/products/magnets">
-            <img class="thumbnail product-img" src="/image/products/magnets.jpg">
-        </a>
-        <h5>Фото-магнитики <br /> &nbsp;</h5>
-        <p>от 100 руб</p>
-        <a href="/products/magnets" class="button expanded">Выбрать</a>
-    </div>
-
-</div>
-
-<hr>
-
-<div class="row small-up-2 large-up-4">
-    <div class="column">
         <a href="/products/cards">
             <img class="thumbnail product-img" src="/image/products/cards.jpg">
         </a>
@@ -138,6 +132,12 @@
         <p>от 800 руб</p>
         <a href="/products/stickers" class="button expanded">Выбрать</a>
     </div>
+
+</div>
+
+<hr>
+
+<div class="row small-up-2 large-up-4">
     <div class="column">
         <a href="/products/cups">
             <img class="thumbnail product-img" src="/image/products/cups.jpg">

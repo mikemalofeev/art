@@ -58,14 +58,14 @@
 <hr>
 
 <div class="row small-up-2 large-up-4">
-    <div class="column">
-        <a href="/products/tree">
-            <img class="thumbnail product-img" src="/image/products/tree.jpg">
-        </a>
-        <h5>Родословное дерево 50х90 см на холсте</h5>
-        <p>6548 руб</p>
-        <a href="/products/tree" class="button expanded">Выбрать</a>
-    </div>
+    {{--<div class="column">--}}
+        {{--<a href="/products/tree">--}}
+            {{--<img class="thumbnail product-img" src="/image/products/tree.jpg">--}}
+        {{--</a>--}}
+        {{--<h5>Родословное дерево 50х90 см на холсте</h5>--}}
+        {{--<p>6548 руб</p>--}}
+        {{--<a href="/products/tree" class="button expanded">Выбрать</a>--}}
+    {{--</div>--}}
     <div class="column">
         <a href="/compositions">
             <img class="thumbnail product-img" src="/image/products/composition.jpg">

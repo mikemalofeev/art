@@ -29,14 +29,14 @@
         <p>от 1200 руб</p>
         <a href="/products/puzzle" class="button expanded">Выбрать</a>
     </div>
-    <div class="column">
-        <a href="/products/magnets">
-            <img class="thumbnail product-img" src="/image/products/magnets.jpg">
-        </a>
-        <h5>Фото-магнитики <br /> &nbsp;</h5>
-        <p>от 100 руб</p>
-        <a href="/products/magnets" class="button expanded">Выбрать</a>
-    </div>
+    {{--<div class="column">--}}
+        {{--<a href="/products/magnets">--}}
+            {{--<img class="thumbnail product-img" src="/image/products/magnets.jpg">--}}
+        {{--</a>--}}
+        {{--<h5>Фото-магнитики <br /> &nbsp;</h5>--}}
+        {{--<p>от 100 руб</p>--}}
+        {{--<a href="/products/magnets" class="button expanded">Выбрать</a>--}}
+    {{--</div>--}}
     <div class="column">
         <a href="/products/stickers">
             <img class="thumbnail product-img" src="/image/products/stickers.jpg">
