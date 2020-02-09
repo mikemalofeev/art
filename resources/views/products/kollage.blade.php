@@ -72,13 +72,16 @@
         {{--</p>--}}
         <label>Выберите размер
             <select id="size" name="size">
-                <option value="40x40 см" data-price="1646">40x40 см</option>
-                <option value="40x60 см" data-price="2550">40x60 см</option>
+                <option value="30x40 см" data-price="1646">30x40 см</option>
+                <option value="40x40 см" data-price="1774">40x40 см</option>
+                <option value="35x45 см" data-price="1884">35x45 см</option>
+                <option value="40x50 см" data-price="2144">40x50 см</option>
                 <option value="50x50 см" data-price="2550">50x50 см</option>
-                <option value="55x55 см" data-price="2550">55x55 см</option>
+                <option value="55x55 см" data-price="2700">55x55 см</option>
                 <option value="50x70 см" data-price="3244">50x70 см</option>
-                <option value="60x90 см" data-price="5382">60x90 см</option>
-                <option value="90x90 см" data-price="6545">90x90 см</option>
+                <option value="55x80 см" data-price="3500">55x80 см</option>
+                <option value="80x110 см" data-price="7117">80x110 см</option>
+                <option value="80x250 см" data-price="12775">80x250 см</option>
             </select>
         </label>
 

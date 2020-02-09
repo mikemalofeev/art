@@ -76,7 +76,7 @@
             <img class="thumbnail product-img" src="/image/products/love.jpg">
         </a>
         <h5>Фото-картина "Love is" на холсте</h5>
-        <p>от 870 руб</p>
+        <p>от 1646 руб</p>
         <a href="/products/love" class="button expanded">Выбрать</a>
     </div>
 </div>
