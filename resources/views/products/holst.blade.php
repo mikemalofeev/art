@@ -32,13 +32,13 @@
         @csrf
     <div class="medium-6 columns">
         <div class="main-product-image">
-            <img id="main-product-image" class="thumbnail" src="{{$folder}}/1.jpg" >
+            <img id="main-product-image" class="thumbnail" src="{{$folder}}/2.jpg" >
         </div>
         {{--<img id="main-product-image" class="thumbnail" src="https://placehold.it/650x350">--}}
         <div class="row small-up-4">
-            <div class="column product-thumbs">
-                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/1.jpg" data-image="{{$folder}}/1.jpg">
-            </div>
+            {{--<div class="column product-thumbs">--}}
+                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/1.jpg" data-image="{{$folder}}/1.jpg">--}}
+            {{--</div>--}}
             <div class="column product-thumbs">
                 <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/2.jpg" data-image="{{$folder}}/2.jpg">
             </div>
@@ -70,15 +70,15 @@
         {{--</p>--}}
         <label>Выберите размер
             <select id="size" name="size">
-                <option value="20x30 см" data-price="870">20x30 см</option>
-                <option value="30x40 см" data-price="1346">30x40 см</option>
-                <option value="40x40 см" data-price="1346">40x40 см</option>
-                <option value="35x45 см" data-price="1644">35x45 см</option>
+                <option value="20x30 см" data-price="1170">20x30 см</option>
+                <option value="30x40 см" data-price="1646">30x40 см</option>
+                <option value="40x40 см" data-price="1774">40x40 см</option>
+                <option value="35x45 см" data-price="1884">35x45 см</option>
                 <option value="40x50 см" data-price="2144">40x50 см</option>
                 <option value="50x50 см" data-price="2550">50x50 см</option>
-                <option value="50x60 см" data-price="2650">50x60 см</option>
+                <option value="55x55 см" data-price="2700">55x55 см</option>
                 <option value="50x70 см" data-price="3244">50x70 см</option>
-                <option value="55x85 см" data-price="4300">55x85 см</option>
+                <option value="55x80 см" data-price="3500">55x80 см</option>
                 <option value="80x110 см" data-price="7117">80x110 см</option>
                 <option value="80x250 см" data-price="12775">80x250 см</option>
             </select>
