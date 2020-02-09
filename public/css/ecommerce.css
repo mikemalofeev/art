@@ -548,12 +548,12 @@
 }
 
 .banner-img {
-    height: 450px;
+    /*height: 450px;*/
 }
 
 .product-img {
-    height: 270px;
-    width: 270px;
+    /*height: 270px;*/
+    /*width: 270px;*/
 }
 
 .special-weeks {
@@ -561,7 +561,7 @@
 }
 
 .button-grey {
-    background-color: #eee;
+    /*background-color: rgba(10,10,10,.5);*/
 }
 
 /*.mini-product-img {*/
@@ -624,7 +624,7 @@
     line-height: 0;
     border-radius: 3px;
     width: 120px;
-    height: 120px;
+    /*height: 120px;*/
     border: none;
 }
 
@@ -688,4 +688,8 @@
     float: right;
     margin-top: 3px;
     margin-left: 10px;
+}
+
+.menu.expanded > li {
+    width: auto !important;
 }

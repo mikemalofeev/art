@@ -60,7 +60,8 @@
     </div>
 
     <div class="top-bar-left"
-         style="height: 128px;width: 234px;text-align: center;padding: 10px 0px;color: #1585cf;">
+         style="height: 128px;width: 234px;text-align: center;
+         padding: 10px 0;color: #1585cf;margin:0 auto;">
         {{--<div style="font-size: 16pt;">фотосервис</div>--}}
         {{--<div><a href="/" style="font-size: 24pt;">fotosalon24.ru</a></div>--}}
         {{--<div style="font-size: 14pt;">удобная печать с доставкой</div>--}}
