@@ -664,6 +664,10 @@
     color: #52575b;
 }
 
+.a-red {
+    color: #f5160e;
+}
+
 .a-blue {
     color: #0f55a0;
 }
@@ -692,4 +696,12 @@
 
 .menu.expanded > li {
     width: auto !important;
+}
+
+.row .small-up-4 {
+    line-height: 136px;
+}
+
+.column.product-thumbs {
+    margin-left: 0 !important;
 }

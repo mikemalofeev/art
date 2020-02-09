@@ -2,7 +2,7 @@
     <div class="row">
         <div class="top-bar-left">
             <ul class="dropdown menu" data-dropdown-menu>
-                <li><a href="tel:+79780068956" class="a-grey">Позвоните нам &nbsp;<span style="font-weight: 600">+ 7 (978) 006-89-56</span></a></li>
+                <li><a href="tel:+79780068956" class="a-red">Позвоните нам &nbsp;<span class="a-grey" style="font-weight: 600">+ 7 (978) 006-89-56</span></a></li>
                 {{--<li class="menu-text"><a href="/">ПОЛИГРАФ</a></li>--}}
                 {{--<li class="has-submenu">--}}
                 {{--<a href="#">One</a>--}}
@@ -22,7 +22,7 @@
         <div class="top-bar-right">
         <ul class="menu">
             {{--<li><a href="/contacts">Контакты</a></li>--}}
-            <li><a href="mailto:info@fotosalon24.ru" class="a-grey">Напишите нам &nbsp;<span style="font-weight: 600">info@fotosalon24.ru</span></a></li>
+            <li><a href="mailto:info@fotosalon24.ru" class="a-red">Напишите нам &nbsp;<span class="a-grey" style="font-weight: 600">info@fotosalon24.ru</span></a></li>
         {{--<li><input type="search" placeholder="Search"></li>--}}
         {{--<li>--}}
         {{--<button type="button" class="button">Search</button>--}}

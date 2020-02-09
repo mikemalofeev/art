@@ -22,7 +22,7 @@
 <div class="row small-up-2 large-up-4">
     <div class="column">
         <a href="/products/composition1">
-            <img class="thumbnail product-img" src="/image/composition/1.jpg">
+            <img class="thumbnail product-img" src="/image/composition/c1.jpg">
         </a>
         <h5>Композиция из 4х фото-картин на холсте</h5>
         <p>4250 руб</p>
@@ -30,7 +30,7 @@
     </div>
     <div class="column">
         <a href="/products/composition2">
-            <img class="thumbnail product-img" src="/image/composition/2.jpg">
+            <img class="thumbnail product-img" src="/image/composition/c2.jpg">
         </a>
         <h5>Композиция из 5 фото-картин на холсте</h5>
         <p>6738 руб</p>
@@ -38,7 +38,7 @@
     </div>
     <div class="column">
         <a href="/products/composition3">
-            <img class="thumbnail product-img" src="/image/composition/3.jpg">
+            <img class="thumbnail product-img" src="/image/composition/c3.jpg">
         </a>
         <h5>Набор из 4х фото-картин <br>&nbsp;</h5>
         <p>3200 руб</p>
@@ -46,7 +46,7 @@
     </div>
     <div class="column">
         <a href="/products/composition4">
-            <img class="thumbnail product-img" src="/image/composition/4.jpg">
+            <img class="thumbnail product-img" src="/image/composition/c4.jpg">
         </a>
         <h5>Композиция из 3х фото-картин на холсте</h5>
         <p>8750 руб</p>
@@ -60,7 +60,7 @@
 <div class="row small-up-2 large-up-4">
     <div class="column">
         <a href="/products/composition5">
-            <img class="thumbnail product-img" src="/image/composition/5.jpg">
+            <img class="thumbnail product-img" src="/image/composition/c5.jpg">
         </a>
         <h5>Панно из 4х фото-картин на холсте</h5>
         <p>5713 руб</p>
@@ -69,7 +69,7 @@
 
     <div class="column">
         <a href="/products/composition6">
-            <img class="thumbnail product-img" src="/image/composition/6.jpg">
+            <img class="thumbnail product-img" src="/image/composition/c6.jpg">
         </a>
         <h5>Триптих на холсте "Love Story"</h5>
         <p>3950 руб</p>
@@ -78,7 +78,7 @@
 
     <div class="column">
         <a href="/products/composition7">
-            <img class="thumbnail product-img" src="/image/composition/7.jpg">
+            <img class="thumbnail product-img" src="/image/composition/c7.jpg">
         </a>
         <h5>Панно из 4х фото-картин на холсте</h5>
         <p>5416 руб</p>
@@ -87,7 +87,7 @@
 
     <div class="column">
         <a href="/products/composition8">
-            <img class="thumbnail product-img" src="/image/composition/8.jpg">
+            <img class="thumbnail product-img" src="/image/composition/c8.jpg">
         </a>
         <h5>Композиция из 6и фото-картин на холсте</h5>
         <p>8952 руб</p>
@@ -101,7 +101,7 @@
 <div class="row small-up-2 large-up-4">
     <div class="column">
         <a href="/products/composition9">
-            <img class="thumbnail product-img" src="/image/composition/9.jpg">
+            <img class="thumbnail product-img" src="/image/composition/c9.jpg">
         </a>
         <h5>Панно из 7и фото-картин на холсте</h5>
         <p>8450 руб</p>
