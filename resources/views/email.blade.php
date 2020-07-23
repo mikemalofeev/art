@@ -32,7 +32,7 @@
 				<table bgcolor="#999999">
 					<tr>
 						{{--<td><img src="http://placehold.it/200x50/" /></td>--}}
-                        <td align="left"><h6 class="collapse"><a href="{{$host}}">Полиграф</a></h6></td>
+                        <td align="left"><h6 class="collapse"><a href="{{$host}}">Фотосалон24</a></h6></td>
 
                         {{--<td align="right"><h6 class="collapse">Basic</h6></td>--}}
 					</tr>
@@ -103,7 +103,7 @@
 																			
 												<h5 class="">Контакты:</h5>
 												<p>Телефон: <strong>+ 7 (978) 006-89-56</strong><br/>
-                Email: <strong><a href="mailto:artprestige2012@ya.ru">artprestige2012@ya.ru</a></strong></p>
+                Email: <strong><a href="mailto:info@fotosalon24.ru">info@fotosalon24.ru</a></strong></p>
                 
 											</td>
 										</tr>

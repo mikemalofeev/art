@@ -1,7 +1,7 @@
 <footer class="callout large secondary">
     <div class="row">
         <div class="large-4 columns">
-            <h5>ПолиГраф | Печать на холсте</h5>
+            <h5>Фотосалон24 | Печать на холсте</h5>
             <p>
             <ol class="menu vertical">
                 <li>✓ Услуги дизайна ON-LINE (Разработка макетов)</li>
