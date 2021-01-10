@@ -1,3 +1,16 @@
+@php
+    use Illuminate\Support\Facades\Lang;
+    $holst = Lang::get('prices.holsts');
+    $kollage = Lang::get('prices.kollages');
+    $popart = Lang::get('prices.popart');
+    $love = Lang::get('prices.love');
+    $compositions = Lang::get('prices.compositions');
+    $puzzle = Lang::get('prices.puzzle');
+    $cards = Lang::get('prices.cards');
+    $cups = Lang::get('prices.cups');
+    $packets = Lang::get('prices.packets');
+@endphp
+
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -52,7 +65,7 @@
             <img class="thumbnail product-img" src="/image/products/holst.jpg">
         </a>
         <h5>Фото на холсте <br /> &nbsp;</h5>
-        <p>от 1170 руб</p>
+        <p>от {{ array_shift($holst) }} руб</p>
         <a href="/products/holst" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -60,7 +73,7 @@
             <img class="thumbnail product-img" src="/image/products/kollage.jpg">
         </a>
         <h5>Фото-коллаж на холсте <br /> &nbsp;</h5>
-        <p>от 1646 руб</p>
+        <p>от {{ array_shift($kollage) }} руб</p>
         <a href="/products/kollage" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -68,7 +81,7 @@
             <img class="thumbnail product-img" src="/image/products/popart.jpg">
         </a>
         <h5>Фото-картина ПОП АРТ на холсте</h5>
-        <p>от 2850 руб</p>
+        <p>от {{ array_shift($popart) }} руб</p>
         <a href="/products/popart" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -76,7 +89,7 @@
             <img class="thumbnail product-img" src="/image/products/love.jpg">
         </a>
         <h5>Фото-картина "Love is" на холсте</h5>
-        <p>от 1646 руб</p>
+        <p>от {{ array_shift($love) }} руб</p>
         <a href="/products/love" class="button expanded">Выбрать</a>
     </div>
 </div>
@@ -105,7 +118,7 @@
             <img class="thumbnail product-img" src="/image/products/composition.jpg">
         </a>
         <h5>Композиции из нескольких фото-картин на холсте</h5>
-        <p>от 3200 руб</p>
+        <p>от {{ array_shift($compositions) }} руб</p>
         <a href="/compositions" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -113,7 +126,7 @@
             <img class="thumbnail product-img" src="/image/products/puzzle.jpg">
         </a>
         <h5>Фото-пазл <br /> &nbsp;</h5>
-        <p>от 1200 руб</p>
+        <p>от {{ array_shift($puzzle) }} руб</p>
         <a href="/products/puzzle" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -121,7 +134,7 @@
             <img class="thumbnail product-img" src="/image/products/cards.jpg">
         </a>
         <h5>Визитки <br /> &nbsp;</h5>
-        <p>от 650 руб</p>
+        <p>от {{ array_shift($cards) }} руб</p>
         <a href="/products/cards" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -129,7 +142,7 @@
             <img class="thumbnail product-img" src="/image/products/stickers.jpg">
         </a>
         <h5>Наклейки <br /> &nbsp;</h5>
-        <p>от 800 руб</p>
+        <p>от {{ array_shift($stickers) }} руб</p>
         <a href="/products/stickers" class="button expanded">Выбрать</a>
     </div>
 
@@ -143,7 +156,7 @@
             <img class="thumbnail product-img" src="/image/products/cups.jpg">
         </a>
         <h5>Кружки <br /> &nbsp;</h5>
-        <p>от 550 руб</p>
+        <p>от {{ array_shift($cups) }} руб</p>
         <a href="/products/cups" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -151,7 +164,7 @@
             <img class="thumbnail product-img" src="/image/products/packets.jpg">
         </a>
         <h5>Пакеты <br /> &nbsp;</h5>
-        <p>от 3000 руб</p>
+        <p>от {{ array_shift($packets) }} руб</p>
         <a href="/products/packets" class="button expanded">Выбрать</a>
     </div>
 </div>

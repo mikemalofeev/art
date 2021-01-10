@@ -1,5 +1,11 @@
 @php
+    use Illuminate\Support\Facades\Lang;
+
     $name = "Фото-сувениры";
+
+    $puzzle = Lang::get('prices.puzzle');
+    $stickers = Lang::get('prices.stickers');
+    $cups = Lang::get('prices.cups');
 @endphp
 
 
@@ -26,7 +32,7 @@
             <img class="thumbnail product-img" src="/image/products/puzzle.jpg">
         </a>
         <h5>Фото-пазл <br /> &nbsp;</h5>
-        <p>от 1200 руб</p>
+        <p>от {{ array_shift($puzzle) }} руб</p>
         <a href="/products/puzzle" class="button expanded">Выбрать</a>
     </div>
     {{--<div class="column">--}}
@@ -42,7 +48,7 @@
             <img class="thumbnail product-img" src="/image/products/stickers.jpg">
         </a>
         <h5>Наклейки <br /> &nbsp;</h5>
-        <p>от 800 руб</p>
+        <p>от {{ array_shift($stickers) }} руб</p>
         <a href="/products/stickers" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -50,7 +56,7 @@
             <img class="thumbnail product-img" src="/image/products/cups.jpg">
         </a>
         <h5>Кружки <br /> &nbsp;</h5>
-        <p>от 550 руб</p>
+        <p>от {{ array_shift($cups) }} руб</p>
         <a href="/products/cups" class="button expanded">Выбрать</a>
     </div>
 </div>

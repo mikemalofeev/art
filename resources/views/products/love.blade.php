@@ -72,16 +72,9 @@
         {{--</p>--}}
         <label>Выберите размер
             <select id="size" name="size">
-                <option value="30x40 см" data-price="1646">30x40 см</option>
-                <option value="40x40 см" data-price="1774">40x40 см</option>
-                <option value="35x45 см" data-price="1884">35x45 см</option>
-                <option value="40x50 см" data-price="2144">40x50 см</option>
-                <option value="50x50 см" data-price="2550">50x50 см</option>
-                <option value="55x55 см" data-price="2700">55x55 см</option>
-                <option value="50x70 см" data-price="3244">50x70 см</option>
-                <option value="55x80 см" data-price="3500">55x80 см</option>
-                <option value="80x110 см" data-price="7117">80x110 см</option>
-                <option value="80x250 см" data-price="12775">80x250 см</option>
+                @foreach (Lang::get('prices.love') as $size => $price)
+                    <option value="{{$size}} см" data-price="{{$price}}">{{$size}} см</option>
+                @endforeach
             </select>
         </label>
 

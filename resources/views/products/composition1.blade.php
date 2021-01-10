@@ -72,7 +72,7 @@
         {{--</p>--}}
         <label>Размер
             <select id="size" name="size">
-                <option value="35х45 см - 2 шт, 25х35 см - 2 шт" data-price="4250">35х45 см - 2 шт, 25х35 см - 2 шт</option>
+                <option value="35х45 см - 2 шт, 25х35 см - 2 шт" data-price="{{ trans('prices.compositions.1') }}">35х45 см - 2 шт, 25х35 см - 2 шт</option>
             </select>
         </label>
 

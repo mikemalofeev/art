@@ -72,7 +72,9 @@
         {{--</p>--}}
         <label>Размер:
             <select id="size" name="size">
-                <option value="30х40 см 100 шт." data-price="3000">30х40 см 100 шт.</option>
+                @foreach (Lang::get('prices.packets') as $size => $price)
+                    <option value="{{$size}}" data-price="{{$price}}">{{$size}}</option>
+                @endforeach
             </select>
         </label>
 

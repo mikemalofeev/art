@@ -72,8 +72,9 @@
         {{--</p>--}}
         <label>Выберите размер:
             <select id="size" name="size">
-                <option value="20х30 см" data-price="1200">20х30 см</option>
-                <option value="26х38 см" data-price="1450">26х38 см</option>
+                @foreach (Lang::get('prices.puzzle') as $size => $price)
+                    <option value="{{$size}} см" data-price="{{$price}}">{{$size}} см</option>
+                @endforeach
             </select>
         </label>
 

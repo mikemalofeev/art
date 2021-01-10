@@ -72,10 +72,9 @@
         {{--</p>--}}
         <label>Выберите вариант
             <select id="size" name="size">
-                <option value="Фото-кружка" data-price="550">Фото-кружка</option>
-                <option value="Фото-кружка + дизайн" data-price="750">Фото-кружка + дизайн</option>
-                <option value="Фото-кружка с цветной ручкой" data-price="650">Фото-кружка с цветной ручкой</option>
-                <option value="Фото-кружка с цветной ручкой + дизайн" data-price="850">Фото-кружка с цветной ручкой + дизайн</option>
+                @foreach (Lang::get('prices.cups') as $size => $price)
+                    <option value="{{$size}}" data-price="{{$price}}">{{$size}}</option>
+                @endforeach
             </select>
         </label>
 

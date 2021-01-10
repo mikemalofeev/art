@@ -72,8 +72,9 @@
         {{--</p>--}}
         <label>Выберите количество:
             <select id="size" name="size">
-                <option value="100 шт." data-price="650">100 шт.</option>
-                <option value="1000 шт." data-price="1000">1000 шт.</option>
+                @foreach (Lang::get('prices.cards') as $size => $price)
+                    <option value="{{$size}}" data-price="{{$price}}">{{$size}}</option>
+                @endforeach
             </select>
         </label>
 

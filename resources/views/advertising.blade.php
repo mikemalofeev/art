@@ -1,5 +1,12 @@
 @php
+    use Illuminate\Support\Facades\Lang;
+
     $name = "Рекламная полиграфия";
+
+    $cards = Lang::get('prices.cards');
+    $stickers = Lang::get('prices.stickers');
+    $cups = Lang::get('prices.cups');
+    $packets = Lang::get('prices.packets');
 @endphp
 
 
@@ -26,7 +33,7 @@
             <img class="thumbnail product-img" src="/image/products/cards.jpg">
         </a>
         <h5>Визитки <br /> &nbsp;</h5>
-        <p>от 650 руб</p>
+        <p>от {{ array_shift($cards) }} руб</p>
         <a href="/products/cards" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -34,7 +41,7 @@
             <img class="thumbnail product-img" src="/image/products/stickers.jpg">
         </a>
         <h5>Наклейки <br /> &nbsp;</h5>
-        <p>от 800 руб</p>
+        <p>от {{ array_shift($stickers) }} руб</p>
         <a href="/products/stickers" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -42,7 +49,7 @@
             <img class="thumbnail product-img" src="/image/products/cups.jpg">
         </a>
         <h5>Кружки <br /> &nbsp;</h5>
-        <p>от 550 руб</p>
+        <p>от {{ array_shift($cups) }} руб</p>
         <a href="/products/cups" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
@@ -50,7 +57,7 @@
             <img class="thumbnail product-img" src="/image/products/packets.jpg">
         </a>
         <h5>Пакеты <br /> &nbsp;</h5>
-        <p>от 3000 руб</p>
+        <p>от {{ array_shift($packets) }} руб</p>
         <a href="/products/packets" class="button expanded">Выбрать</a>
     </div>
 </div>
