@@ -9,6 +9,7 @@
     $cards = Lang::get('prices.cards');
     $cups = Lang::get('prices.cups');
     $packets = Lang::get('prices.packets');
+    $stickers = Lang::get('prices.stickers');
 @endphp
 
 <!doctype html>
