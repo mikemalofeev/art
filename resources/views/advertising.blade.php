@@ -7,6 +7,8 @@
     $stickers = Lang::get('prices.stickers');
     $cups = Lang::get('prices.cups');
     $packets = Lang::get('prices.packets');
+    $calendar = Lang::get('prices.calendar');
+    $journal = Lang::get('prices.journal');
 @endphp
 
 
@@ -62,6 +64,26 @@
     </div>
 </div>
 
+<hr>
+
+<div class="row small-up-2 large-up-4">
+    <div class="column">
+        <a href="/products/calendar">
+            <img class="thumbnail product-img" src="/image/products/calendar.jpg">
+        </a>
+        <h5>Фотокалендарь <br /> &nbsp;</h5>
+        <p>{{ array_shift($calendar) }} руб</p>
+        <a href="/products/calendar" class="button expanded">Выбрать</a>
+    </div>
+    <div class="column">
+        <a href="/products/journal">
+            <img class="thumbnail product-img" src="/image/products/journal.jpg">
+        </a>
+        <h5>Фото-журнал <br /> &nbsp;</h5>
+        <p>{{ array_shift($journal) }} руб</p>
+        <a href="/products/journal" class="button expanded">Выбрать</a>
+    </div>
+</div>
 {{--<hr>--}}
 
 {{--<div class="row small-up-2 large-up-4">--}}
