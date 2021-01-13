@@ -5,10 +5,14 @@
     $popart = Lang::get('prices.popart');
     $love = Lang::get('prices.love');
     $compositions = Lang::get('prices.compositions');
-    $puzzle = Lang::get('prices.puzzle');
-    $cards = Lang::get('prices.cards');
-    $cups = Lang::get('prices.cups');
-    $packets = Lang::get('prices.packets');
+
+    //$puzzle = Lang::get('prices.puzzle');
+    //$cards = Lang::get('prices.cards');
+    //$cups = Lang::get('prices.cups');
+    //$packets = Lang::get('prices.packets');
+
+    $calendar = Lang::get('prices.calendar');
+    $journal = Lang::get('prices.journal');
     $stickers = Lang::get('prices.stickers');
 @endphp
 
@@ -122,21 +126,37 @@
         <p>от {{ array_shift($compositions) }} руб</p>
         <a href="/compositions" class="button expanded">Выбрать</a>
     </div>
+{{--    <div class="column">--}}
+{{--        <a href="/products/puzzle">--}}
+{{--            <img class="thumbnail product-img" src="/image/products/puzzle.jpg">--}}
+{{--        </a>--}}
+{{--        <h5>Фото-пазл <br /> &nbsp;</h5>--}}
+{{--        <p>от {{ array_shift($puzzle) }} руб</p>--}}
+{{--        <a href="/products/puzzle" class="button expanded">Выбрать</a>--}}
+{{--    </div>--}}
+{{--    <div class="column">--}}
+{{--        <a href="/products/cards">--}}
+{{--            <img class="thumbnail product-img" src="/image/products/cards.jpg">--}}
+{{--        </a>--}}
+{{--        <h5>Визитки <br /> &nbsp;</h5>--}}
+{{--        <p>от {{ array_shift($cards) }} руб</p>--}}
+{{--        <a href="/products/cards" class="button expanded">Выбрать</a>--}}
+{{--    </div>--}}
     <div class="column">
-        <a href="/products/puzzle">
-            <img class="thumbnail product-img" src="/image/products/puzzle.jpg">
+        <a href="/products/calendar">
+            <img class="thumbnail product-img" src="/image/products/calendar.jpg">
         </a>
-        <h5>Фото-пазл <br /> &nbsp;</h5>
-        <p>от {{ array_shift($puzzle) }} руб</p>
-        <a href="/products/puzzle" class="button expanded">Выбрать</a>
+        <h5>Фотокалендарь <br /> &nbsp;</h5>
+        <p>{{ array_shift($calendar) }} руб</p>
+        <a href="/products/calendar" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
-        <a href="/products/cards">
-            <img class="thumbnail product-img" src="/image/products/cards.jpg">
+        <a href="/products/journal">
+            <img class="thumbnail product-img" src="/image/products/journal.jpg">
         </a>
-        <h5>Визитки <br /> &nbsp;</h5>
-        <p>от {{ array_shift($cards) }} руб</p>
-        <a href="/products/cards" class="button expanded">Выбрать</a>
+        <h5>Фото-журнал <br /> &nbsp;</h5>
+        <p>{{ array_shift($journal) }} руб</p>
+        <a href="/products/journal" class="button expanded">Выбрать</a>
     </div>
     <div class="column">
         <a href="/products/stickers">
@@ -149,26 +169,26 @@
 
 </div>
 
-<hr>
+{{--<hr>--}}
 
-<div class="row small-up-2 large-up-4">
-    <div class="column">
-        <a href="/products/cups">
-            <img class="thumbnail product-img" src="/image/products/cups.jpg">
-        </a>
-        <h5>Кружки <br /> &nbsp;</h5>
-        <p>от {{ array_shift($cups) }} руб</p>
-        <a href="/products/cups" class="button expanded">Выбрать</a>
-    </div>
-    <div class="column">
-        <a href="/products/packets">
-            <img class="thumbnail product-img" src="/image/products/packets.jpg">
-        </a>
-        <h5>Пакеты <br /> &nbsp;</h5>
-        <p>от {{ array_shift($packets) }} руб</p>
-        <a href="/products/packets" class="button expanded">Выбрать</a>
-    </div>
-</div>
+{{--<div class="row small-up-2 large-up-4">--}}
+{{--    <div class="column">--}}
+{{--        <a href="/products/cups">--}}
+{{--            <img class="thumbnail product-img" src="/image/products/cups.jpg">--}}
+{{--        </a>--}}
+{{--        <h5>Кружки <br /> &nbsp;</h5>--}}
+{{--        <p>от {{ array_shift($cups) }} руб</p>--}}
+{{--        <a href="/products/cups" class="button expanded">Выбрать</a>--}}
+{{--    </div>--}}
+{{--    <div class="column">--}}
+{{--        <a href="/products/packets">--}}
+{{--            <img class="thumbnail product-img" src="/image/products/packets.jpg">--}}
+{{--        </a>--}}
+{{--        <h5>Пакеты <br /> &nbsp;</h5>--}}
+{{--        <p>от {{ array_shift($packets) }} руб</p>--}}
+{{--        <a href="/products/packets" class="button expanded">Выбрать</a>--}}
+{{--    </div>--}}
+{{--</div>--}}
 
 {{--<div class="row small-up-2 large-up-4">--}}
     {{--<div class="column">--}}
