@@ -43,12 +43,12 @@
             <div class="column product-thumbs">
                 <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/2.jpg" data-image="{{$folder}}/2.jpg">
             </div>
-            {{--<div class="column product-thumbs">--}}
-                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">--}}
-            {{--</div>--}}
-            {{--<div class="column product-thumbs">--}}
-                {{--<img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}4.jpg" data-image="{{$folder}}4.jpg">--}}
-            {{--</div>--}}
+            <div class="column product-thumbs">
+                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/3.jpg" data-image="{{$folder}}/3.jpg">
+            </div>
+            <div class="column product-thumbs">
+                <img class="thumbnail sim-thumb mini-product-img" src="{{$folder}}/4.jpg" data-image="{{$folder}}/4.jpg">
+            </div>
             {{--<div class="column">--}}
                 {{--<img class="thumbnail sim-thumb" src="https://placehold.it/250x200">--}}
             {{--</div>--}}
